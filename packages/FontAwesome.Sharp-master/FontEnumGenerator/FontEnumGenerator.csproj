@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <SolutionDir Condition="'$(SolutionDir)' == ''">..\</SolutionDir>
+        <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+        <OutputType>Exe</OutputType>
+        <IsPackable>false</IsPackable>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+    <Import Project="$(SolutionDir)solution.targets" />
+
+    <ItemGroup>
+        <PackageReference Include="CommandLineParser" Version="2.8.0" />
+        <PackageReference Include="System.CodeDom" Version="4.7.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Content\*.css">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>

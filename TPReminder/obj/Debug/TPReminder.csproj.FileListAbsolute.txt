@@ -1,0 +1,15 @@
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\TPReminder.exe.config
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\TPReminder.exe
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\TPReminder.pdb
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.csprojAssemblyReference.cache
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Properties.Resources.resources
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.csproj.GenerateResource.cache
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.csproj.CoreCompileInputs.cache
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.exe
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.pdb
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Form1.resources
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.csproj.CopyComplete
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.FormAllTps.resources
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.FormSettings.resources
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.FormHome.resources

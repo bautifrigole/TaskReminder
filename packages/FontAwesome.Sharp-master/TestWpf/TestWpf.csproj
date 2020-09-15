@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop" ToolsVersion="Current">
+
+    <PropertyGroup>
+        <SolutionDir Condition="'$(SolutionDir)' == ''">..\</SolutionDir>
+    </PropertyGroup>
+    <Import Project="$(SolutionDir)\solution.targets" />
+
+    <PropertyGroup>
+        <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+        <UseWpf>true</UseWpf>
+        <OutputType>WinExe</OutputType>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\FontAwesome.Sharp.Pro\FontAwesome.Sharp.Pro.csproj" />
+        <ProjectReference Include="..\FontAwesome.Sharp\FontAwesome.Sharp.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="fonts\*.ttf" />
+    </ItemGroup>
+</Project>
