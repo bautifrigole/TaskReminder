@@ -49,7 +49,7 @@ namespace TPReminder
             this.panelHome.ForeColor = System.Drawing.Color.Black;
             this.panelHome.Location = new System.Drawing.Point(0, 0);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(816, 453);
+            this.panelHome.Size = new System.Drawing.Size(815, 453);
             this.panelHome.TabIndex = 0;
             // 
             // lblNextTp
@@ -81,7 +81,7 @@ namespace TPReminder
             this.lblWelcome.ForeColor = System.Drawing.Color.White;
             this.lblWelcome.Location = new System.Drawing.Point(44, 22);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(168, 31);
+            this.lblWelcome.Size = new System.Drawing.Size(599, 31);
             this.lblWelcome.TabIndex = 2;
             this.lblWelcome.Text = "Bienvenido,";
             // 
@@ -89,7 +89,7 @@ namespace TPReminder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 453);
+            this.ClientSize = new System.Drawing.Size(815, 453);
             this.Controls.Add(this.panelHome);
             this.Name = "FormHome";
             this.Text = "FormHome";

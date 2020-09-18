@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44d8fd0d-ccdb-408c-ad07-165e7275305c" name="Default Changelist" comment="" />
+    <list default="true" id="44d8fd0d-ccdb-408c-ad07-165e7275305c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormSettings.resx" root0="FORCE_HIGHLIGHTING" />
@@ -59,8 +70,8 @@
         <option value="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/Form1.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Program.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" />
       </list>
     </option>
   </component>
@@ -125,6 +136,8 @@
       <workItem from="1600094311539" duration="370000" />
       <workItem from="1600094812325" duration="1917000" />
       <workItem from="1600096787725" duration="5233000" />
+      <workItem from="1600361538418" duration="136000" />
+      <workItem from="1600361836931" duration="738000" />
     </task>
     <servers />
   </component>
@@ -133,6 +146,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
