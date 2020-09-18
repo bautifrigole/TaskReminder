@@ -91,7 +91,7 @@ namespace TPReminder
             DateTime now = DateTime.Now;
             DateTime tpDate = new DateTime(20, Int32.Parse(CurrentTpMonth), Int32.Parse(CurrentTpDay));
 
-            DaysToSubmit = Int32.Parse(CurrentTpDay) - now.Day;
+            DaysToSubmit = tpDate.DayOfYear - now.DayOfYear;
 
             Console.WriteLine("Faltan " + DaysToSubmit + " días para entregar el trabajo '" + CurrentTpName + "'");
             Console.WriteLine("");
