@@ -17,15 +17,15 @@ namespace TPReminder
 
         private void GiveGreeting()
         {
-            if(DateTime.Now.Hour > 6 && DateTime.Now.Hour < 12)
+            if(DateTime.Now.Hour >= 6 && DateTime.Now.Hour < 12)
             {
                 lblWelcome.Text = "Buen día,";
             }
-            else if(DateTime.Now.Hour > 12 && DateTime.Now.Hour < 20)
+            else if(DateTime.Now.Hour >= 12 && DateTime.Now.Hour < 20)
             {
                 lblWelcome.Text = "Buenas tardes,";
             }
-            else if(DateTime.Now.Hour > 20 || DateTime.Now.Hour < 6)
+            else if(DateTime.Now.Hour >= 20 || DateTime.Now.Hour < 6)
             {
                 lblWelcome.Text = "Buenas noches,";
             }
