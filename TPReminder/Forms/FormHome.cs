@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Security.AccessControl;
 using System.Windows.Forms;
+using TPReminder.Scripts.Controllers;
 
-namespace TPReminder
+namespace TPReminder.Forms
 {
     public partial class FormHome : Form
     {
@@ -33,37 +33,37 @@ namespace TPReminder
 
         private void UpdateNextTpDay()
         {
-            if (Program.DaysToSubmit > 1)
+            if (ProgramController.DaysToSubmit > 1)
             {
-                lblNextTp.Text = "Faltan " + Program.DaysToSubmit + " días para entregar el trabajo: \n" +
-                                 Program.CurrentTpName;
+                lblNextTp.Text = "Faltan " + ProgramController.DaysToSubmit + " días para entregar el trabajo: \n" +
+                                 ProgramController.CurrentTpName;
             }
-            else if (Program.DaysToSubmit == 1)
+            else if (ProgramController.DaysToSubmit == 1)
             {
-                lblNextTp.Text = "Mañana debes entregar el trabajo: \n" + Program.CurrentTpName;
+                lblNextTp.Text = "Mañana debes entregar el trabajo: \n" + ProgramController.CurrentTpName;
             }
-            else if (Program.DaysToSubmit == 0)
+            else if (ProgramController.DaysToSubmit == 0)
             {
-                lblNextTp.Text = "Hoy debes entregar el trabajo: \n" + Program.CurrentTpName;
+                lblNextTp.Text = "Hoy debes entregar el trabajo: \n" + ProgramController.CurrentTpName;
             }
-            else if (Program.DaysToSubmit < 0)
+            else if (ProgramController.DaysToSubmit < 0)
             {
-                lblNextTp.Text = "Debías entregar hace " + (Program.DaysToSubmit * -1) + " días el trabajo: \n" +
-                                 Program.CurrentTpName;
+                lblNextTp.Text = "Debías entregar hace " + (ProgramController.DaysToSubmit * -1) + " días el trabajo: \n" +
+                                 ProgramController.CurrentTpName;
             }
         }
 
         private void UpdateNextTps()
         {
-            if (Program.TpToDo > 1)
+            if (ProgramController.TpToDo > 1)
             {
-                lblTpToDo.Text = "Tienes " + Program.TpToDo + " tareas por entregar";
+                lblTpToDo.Text = "Tienes " + ProgramController.TpToDo + " tareas por entregar";
             }
-            else if (Program.TpToDo == 1)
+            else if (ProgramController.TpToDo == 1)
             {
-                lblTpToDo.Text = "Tienes " + Program.TpToDo + " tarea por entregar";
+                lblTpToDo.Text = "Tienes " + ProgramController.TpToDo + " tarea por entregar";
             }
-            else if (Program.TpToDo == 0)
+            else if (ProgramController.TpToDo == 0)
             {
                 lblTpToDo.Text = "¡Yuju! ¡No tienes ninguna tarea por entregar!";
                 lblNextTp.Text = "";

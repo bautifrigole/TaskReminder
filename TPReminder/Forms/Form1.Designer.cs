@@ -1,9 +1,9 @@
 ﻿using System;
 using FontAwesome.Sharp;
 
-namespace TPReminder
+namespace TPReminder.Forms
 {
-  partial class Form1
+  partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -33,7 +33,7 @@ namespace TPReminder
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources =
-                new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+                new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.settingsButton = new FontAwesome.Sharp.IconButton();
             this.allTpButton = new FontAwesome.Sharp.IconButton();
@@ -214,7 +214,7 @@ namespace TPReminder
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(15, 15);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "TP Reminder";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);

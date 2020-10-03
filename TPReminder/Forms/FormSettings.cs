@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
+using TPReminder.Scripts.Controllers;
 
-namespace TPReminder
+namespace TPReminder.Forms
 {
     public partial class FormSettings : Form
     {
@@ -14,7 +15,7 @@ namespace TPReminder
         {
             if (folderBrowserDialog.ShowDialog() == DialogResult.OK)  
             {
-                Program.path = folderBrowserDialog.SelectedPath;
+                ProgramController.path = folderBrowserDialog.SelectedPath;
             }
         }
     }

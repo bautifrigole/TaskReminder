@@ -10,7 +10,6 @@
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Forms" t="Include">
-          <e p="Form1.cs" t="Include" />
           <e p="Form1.Designer.cs" t="Include" />
           <e p="Form1.resx" t="Include" />
           <e p="FormAllTps.cs" t="Include" />
@@ -22,6 +21,7 @@
           <e p="FormSettings.cs" t="Include" />
           <e p="FormSettings.Designer.cs" t="Include" />
           <e p="FormSettings.resx" t="Include" />
+          <e p="MainForm.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
@@ -33,7 +33,14 @@
           <e p="Settings.settings" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="Program.cs" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="CalendarController.cs" t="Include" />
+            <e p="ProgramController.cs" t="Include" />
+            <e p="TaskController.cs" t="Include" />
+          </e>
+          <e p="Domain" t="Include">
+            <e p="Task.cs" t="Include" />
+          </e>
         </e>
         <e p="TPReminder.csproj" t="IncludeRecursive" />
       </e>

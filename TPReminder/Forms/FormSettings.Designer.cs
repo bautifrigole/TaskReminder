@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace TPReminder
+namespace TPReminder.Forms
 {
     partial class FormSettings
     {

@@ -2,16 +2,17 @@
 using System.Drawing;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
+using TPReminder.Scripts.Controllers;
 
-namespace TPReminder
+namespace TPReminder.Forms
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private IconButton _currentBtn;
         private Panel _leftBorderBtn;
         private Form _currentChildForm;
         
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
@@ -27,7 +28,7 @@ namespace TPReminder
             ActivateButton(settingsButton, RgbColors.color3);
             OpenChildForm(new FormSettings());
 
-            if (Program.path == null)
+            if (ProgramController.path == null)
             {
                 mainMenuButton.Enabled = false;
                 allTpButton.Enabled = false;

@@ -1,33 +1,34 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.IO;
+using TPReminder.Scripts.Controllers;
 
-namespace TPReminder
+namespace TPReminder.Forms
 {
     public partial class FormAllTps : Form
     {
         public FormAllTps()
         {
-            Program.AllTpsToDo = null;
+            ProgramController.AllTpsToDo = null;
             
             InitializeComponent();
 
-            DirectorySearch(Program.path);
+            DirectorySearch(ProgramController.path);
             
-            if (Program.TpToDo > 1)
+            if (ProgramController.TpToDo > 1)
             {
                 lblTpsToDoTitle.Text = "Los trabajos a realizar son los siguientes:";
             }
-            else if (Program.TpToDo == 1)
+            else if (ProgramController.TpToDo == 1)
             {
                 lblTpsToDoTitle.Text = "El trabajo a realizar es el siguiente:";
             }
-            else if (Program.TpToDo == 0)
+            else if (ProgramController.TpToDo == 0)
             {
                 lblTpsToDoTitle.Text = "¡No tienes ninguna tarea por entregar! ¡Puedes descansar!";
             }
             
-            lblTpsToDo.Text = Program.AllTpsToDo;
+            lblTpsToDo.Text = ProgramController.AllTpsToDo;
         }
         
         private static void DirectorySearch(string dir)
@@ -36,7 +37,7 @@ namespace TPReminder
             {
                 foreach (string f in Directory.GetFiles(dir))
                 {
-                    Program.AllTpsToDo += (Path.GetFileNameWithoutExtension(f)) + "\n" + "\n";
+                    ProgramController.AllTpsToDo += (Path.GetFileNameWithoutExtension(f)) + "\n" + "\n";
                 }
             }
             catch (System.Exception ex)

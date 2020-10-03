@@ -1,23 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
+using System.Windows.Forms;
 using Microsoft.Win32;
+using TPReminder.Forms;
 
-/*
- * Requisitos para el correcto funcionamiento del programa:
- *     Indicar ruta de la carpeta con los trabajos sin hacer
- *     Colocar el siguiente formato de nombre para todos los archivos:
- *         "Mes.Día - Materia - Título del TP"
- *         Ej: "09.10 - FEC - CIERRE DE LOS DERECHOS HUMANOS"
- *         *Importante primero el mes, después el día
- */
-
-namespace TPReminder
+namespace TPReminder.Scripts.Controllers
 {
-    static class Program
+    internal static class ProgramController
     {
         public static string path = "C:/Users/bauti/OneDrive/Escritorio/TPs sin hacer";
         
@@ -30,25 +19,22 @@ namespace TPReminder
         public static int TpToDo;
         public static int DaysToSubmit;
         
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             SetStartup();
 
-            TpsToDo();
-            NextTp();
-            AllTps();
-
+            GetAllTpsToDoQuantity();
+            FindNextTp();
+            GetAllTpNames();
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
 
-        private static void TpsToDo()
+        private static void GetAllTpsToDoQuantity()
         {
             foreach (string f in Directory.GetFiles(path))
             {
@@ -56,7 +42,7 @@ namespace TPReminder
             }
         }
         
-        private static void NextTp()
+        private static void FindNextTp()
         {
             foreach (string f in Directory.GetFiles(path))
             {
@@ -88,18 +74,13 @@ namespace TPReminder
                 CurrentTpName = new string(b);
             }
             
-            DateTime now = DateTime.Now;
             DateTime tpDate = new DateTime(20, Int32.Parse(CurrentTpMonth), Int32.Parse(CurrentTpDay));
 
-            DaysToSubmit = tpDate.DayOfYear - now.DayOfYear;
-
-            Console.WriteLine("Faltan " + DaysToSubmit + " días para entregar el trabajo '" + CurrentTpName + "'");
-            Console.WriteLine("");
+            DaysToSubmit = tpDate.DayOfYear - DateTime.Now.DayOfYear;
         }
 
-        private static void AllTps()
+        private static void GetAllTpNames()
         {
-            Console.WriteLine("Los trabajos a realizar son los siguientes:");
             DirectorySearch(path);
         }
         
@@ -110,7 +91,6 @@ namespace TPReminder
                 foreach (string f in Directory.GetFiles(dir))
                 {
                     AllTpsToDo = (Path.GetFileNameWithoutExtension(f));
-                    Console.WriteLine(AllTpsToDo);
                 }
             }
             catch (Exception ex)
