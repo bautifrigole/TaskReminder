@@ -27,17 +27,6 @@ namespace TPReminder.Forms
         {
             ActivateButton(settingsButton, RgbColors.color3);
             OpenChildForm(new FormSettings());
-
-            if (ProgramController.path == null)
-            {
-                mainMenuButton.Enabled = false;
-                allTpButton.Enabled = false;
-            }
-            else
-            {
-                mainMenuButton.Enabled = true;
-                allTpButton.Enabled = true;
-            }
         }
 
         private struct RgbColors
@@ -128,10 +117,16 @@ namespace TPReminder.Forms
             ActivateButton(sender, RgbColors.color2);
             OpenChildForm(new FormAllTps());
         }
-
-        private void settingsButton_Click(object sender, EventArgs e)
+        
+        private void addTaskButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RgbColors.color3);
+            OpenChildForm(new FormAddNewTask());
+        }
+        
+        private void settingsButton_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RgbColors.color4);
             OpenChildForm(new FormSettings());
         }
     }

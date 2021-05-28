@@ -10,13 +10,5 @@ namespace TPReminder.Forms
         {
             InitializeComponent();
         }
-
-        private void iconButtonBrowse_Click(object sender, EventArgs e)
-        {
-            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)  
-            {
-                ProgramController.path = folderBrowserDialog.SelectedPath;
-            }
-        }
     }
 }

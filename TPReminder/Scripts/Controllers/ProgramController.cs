@@ -1,52 +1,84 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using TPReminder.Forms;
+using TPReminder.Scripts.Domain;
 
 namespace TPReminder.Scripts.Controllers
 {
     internal static class ProgramController
     {
-        public static string path = "C:/Users/bauti/OneDrive/Escritorio/TPs sin hacer";
-        
-        public static string CurrentTpPath;
-        public static string CurrentTpName;
-        public static string CurrentTpDay;
-        public static string CurrentTpMonth;
-        public static string AllTpsToDo;
-        
-        public static int TpToDo;
-        public static int DaysToSubmit;
+        private static readonly TaskController TaskController = new TaskController();
+        private static readonly string Path = Application.StartupPath + "/TPsToDo";
+
+        public static int TasksToDoAmount;
+        public static int DaysToSubmitNextTask;
         
         [STAThread]
         private static void Main()
         {
-            SetStartup();
+            // Ask to set in the start up
+            SetAppInStartup();
+            //InitializeTpFolder();
 
-            GetAllTpsToDoQuantity();
-            FindNextTp();
-            GetAllTpNames();
-            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             
             Application.Run(new MainForm());
         }
 
-        private static void GetAllTpsToDoQuantity()
+        public static TaskController GetTaskController()
         {
-            foreach (string f in Directory.GetFiles(path))
-            {
-                TpToDo++;
-            }
+            return TaskController;
         }
         
-        private static void FindNextTp()
+        public static List<Task> GetTasks()
+        {
+            return TaskController.GetTasks();
+        }
+
+        public static int GetDaysToSubmitNextTask()
+        {
+            if (TaskController.GetTasks() != null && TaskController.GetTasks().Count != 0)
+                DaysToSubmitNextTask = TaskController.GetTasks()[0].GetDate().DayOfYear - DateTime.Now.DayOfYear;
+            return DaysToSubmitNextTask;
+        }
+        
+        public static int GetAllTasksToDoQuantity()
+        {
+            if (TaskController.GetTasks() != null)
+                TasksToDoAmount = TaskController.GetTasks().Count;
+            return TasksToDoAmount;
+        }
+        
+        public static string GetAllTasksToDoText()
+        {
+            return TaskController.GetTasks().Aggregate("", (current, t) => 
+                current + "\n" + "Tarea: " + t.GetTitle() + "\n" + "    Materia: " + t.GetSubject() + "\n" + "    Fecha de entrega: " + t.GetDate().Day);
+        }
+
+        private static void SetAppInStartup()
+        {
+            RegistryKey registryKey = Registry.CurrentUser.OpenSubKey
+                ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+
+            registryKey?.SetValue("TPReminder", Application.ExecutablePath);
+        }
+
+        private static void InitializeTaskFolder()
+        {
+            if (!Directory.Exists(Path)) Directory.CreateDirectory(Path);
+        }
+
+        /*private static void FindNextTask()
         {
             foreach (string f in Directory.GetFiles(path))
             {
                 CurrentTpPath = Path.GetFileNameWithoutExtension(f);
+                Console.WriteLine("CurrentTpPath: " + CurrentTpPath);
                 break;
             }
 
@@ -79,9 +111,16 @@ namespace TPReminder.Scripts.Controllers
             DaysToSubmit = tpDate.DayOfYear - DateTime.Now.DayOfYear;
         }
 
-        private static void GetAllTpNames()
+        private static void SetAllTasksNames()
         {
-            DirectorySearch(path);
+            foreach (var t in TaskController.GetTasks())
+            {
+                AllTasksToDoText = AllTasksToDoText + Environment.NewLine + "Tarea: " +t.GetTitle() + Environment.NewLine +
+                             "    Materia: " + t.GetSubject() + Environment.NewLine +
+                             "    Fecha de entrega: "+ t.GetDate().Day;
+            }
+
+            //DirectorySearch(path);
         }
         
         private static void DirectorySearch(string dir)
@@ -90,21 +129,13 @@ namespace TPReminder.Scripts.Controllers
             {
                 foreach (string f in Directory.GetFiles(dir))
                 {
-                    AllTpsToDo = (Path.GetFileNameWithoutExtension(f));
+                    AllTasksToDoText = (System.IO.Path.GetFileNameWithoutExtension(f));
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-        }
-        
-        private static void SetStartup()
-        {
-            RegistryKey registryKey = Registry.CurrentUser.OpenSubKey
-                ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
-
-            registryKey?.SetValue("TPReminder", Application.ExecutablePath);
-        }
+        }*/
     }
 }

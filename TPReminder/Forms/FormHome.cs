@@ -11,8 +11,8 @@ namespace TPReminder.Forms
             InitializeComponent();
 
             GiveGreeting();
-            UpdateNextTpDay();
-            UpdateNextTps();
+            UpdateTasksToDoQuantity();
+            UpdateNextTaskToSubmitInfo();
         }
 
         private void GiveGreeting()
@@ -30,43 +30,50 @@ namespace TPReminder.Forms
                 lblWelcome.Text = "Buenas noches,";
             }
         }
-
-        private void UpdateNextTpDay()
+        
+        private void UpdateTasksToDoQuantity()
         {
-            if (ProgramController.DaysToSubmit > 1)
+            var tasksToDoQuantity = ProgramController.GetAllTasksToDoQuantity();
+            
+            if (tasksToDoQuantity > 1)
             {
-                lblNextTp.Text = "Faltan " + ProgramController.DaysToSubmit + " días para entregar el trabajo: \n" +
-                                 ProgramController.CurrentTpName;
+                lblTpToDo.Text = "Tienes " + tasksToDoQuantity + " tareas por entregar";
             }
-            else if (ProgramController.DaysToSubmit == 1)
+            else if (tasksToDoQuantity == 1)
             {
-                lblNextTp.Text = "Mañana debes entregar el trabajo: \n" + ProgramController.CurrentTpName;
+                lblTpToDo.Text = "Tienes " + tasksToDoQuantity + " tarea por entregar";
             }
-            else if (ProgramController.DaysToSubmit == 0)
-            {
-                lblNextTp.Text = "Hoy debes entregar el trabajo: \n" + ProgramController.CurrentTpName;
-            }
-            else if (ProgramController.DaysToSubmit < 0)
-            {
-                lblNextTp.Text = "Debías entregar hace " + (ProgramController.DaysToSubmit * -1) + " días el trabajo: \n" +
-                                 ProgramController.CurrentTpName;
-            }
-        }
-
-        private void UpdateNextTps()
-        {
-            if (ProgramController.TpToDo > 1)
-            {
-                lblTpToDo.Text = "Tienes " + ProgramController.TpToDo + " tareas por entregar";
-            }
-            else if (ProgramController.TpToDo == 1)
-            {
-                lblTpToDo.Text = "Tienes " + ProgramController.TpToDo + " tarea por entregar";
-            }
-            else if (ProgramController.TpToDo == 0)
+            else if (tasksToDoQuantity == 0)
             {
                 lblTpToDo.Text = "¡Yuju! ¡No tienes ninguna tarea por entregar!";
                 lblNextTp.Text = "";
+            }
+        }
+
+        private void UpdateNextTaskToSubmitInfo()
+        {
+            if (ProgramController.GetTasks().Count == 0) return;
+            
+            var daysToSubmitNextTask = ProgramController.GetDaysToSubmitNextTask();
+            var nextTaskToSubmitName = ProgramController.GetTaskController().GetNextTaskToSubmit().GetTitle();
+            
+            if (daysToSubmitNextTask > 1)
+            {
+                lblNextTp.Text = "Faltan " + daysToSubmitNextTask + " días para entregar el trabajo: \n" +
+                                 nextTaskToSubmitName;
+            }
+            else if (daysToSubmitNextTask == 1)
+            {
+                lblNextTp.Text = "Mañana debes entregar el trabajo: \n" + nextTaskToSubmitName;
+            }
+            else if (daysToSubmitNextTask == 0)
+            {
+                lblNextTp.Text = "Hoy debes entregar el trabajo: \n" + nextTaskToSubmitName;
+            }
+            else if (daysToSubmitNextTask < 0)
+            {
+                lblNextTp.Text = "Debías entregar hace " + (daysToSubmitNextTask * -1) + " días el trabajo: \n" +
+                                 nextTaskToSubmitName;
             }
         }
     }

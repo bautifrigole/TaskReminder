@@ -4,10 +4,26 @@ namespace TPReminder.Scripts.Domain
 {
     public class Task
     {
+        private string Title { get; set; }
         private DateTime Date { get; set; }
         private string Subject { get; set; }
-        private string Title { get; set; }
 
+        public Task(string title, DateTime date, string subject)
+        {
+            Title = title;
+            Date = date;
+            Subject = subject;
+        }
+        
+        public string GetTaskInfo()
+        {
+            return "Tarea: " + Title + "\n" + "    Materia: " + Subject + "\n" + "    Fecha de entrega: " + Date.Day;
+        }
+
+        public string GetTitle()
+        {
+            return Title;
+        }
         public DateTime GetDate()
         {
             return Date;
@@ -17,10 +33,10 @@ namespace TPReminder.Scripts.Domain
         {
             return Subject;
         }
-
-        public string GetTitle()
+        
+        public void SetTitle(string title)
         {
-            return Title;
+            Title = title;
         }
 
         public void SetDate(DateTime date)
@@ -31,11 +47,6 @@ namespace TPReminder.Scripts.Domain
         public void SetSubject(string subject)
         {
             Subject = subject;
-        }
-
-        public void SetTitle(string title)
-        {
-            Title = title;
         }
     }
 }

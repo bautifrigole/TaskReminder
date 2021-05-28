@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8fd0d-ccdb-408c-ad07-165e7275305c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/TPReminder.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/TPReminder.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Form1.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.FormAllTps.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.FormHome.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.FormSettings.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.pdb" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,25 +71,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormSettings.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/CalendarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/Form1.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Properties/Settings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/Form1.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormSettings.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/CalendarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Properties/Settings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,40 +107,38 @@
         <option value="$PROJECT_DIR$/TPReminder/Program.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/Form1.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Program.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/CalendarController.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/KataTrolls.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormNewTask.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1h7YLzqQiIEn8fWaXke1Fh2Vo6q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
@@ -125,7 +156,7 @@
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.1" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
   </component>
@@ -155,11 +186,20 @@
       <workItem from="1600459308354" duration="315000" />
       <workItem from="1601481554225" duration="169000" />
       <workItem from="1601691484085" duration="4386000" />
+      <workItem from="1604810281686" duration="526000" />
+      <workItem from="1604812536856" duration="2624000" />
+      <workItem from="1608385157249" duration="733000" />
+      <workItem from="1608417975053" duration="446000" />
+      <workItem from="1613099818967" duration="33000" />
+      <workItem from="1613099867153" duration="200000" />
+      <workItem from="1613318494229" duration="54000" />
+      <workItem from="1617939733743" duration="734000" />
+      <workItem from="1622211388151" duration="9314000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -168,16 +208,33 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1622225598127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1622225598127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1622225598127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1622225598127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -40,8 +40,7 @@ namespace TPReminder.Forms
             // 
             // panelHome
             // 
-            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))),
-                ((int) (((byte) (74)))));
+            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
             this.panelHome.Controls.Add(this.lblNextTp);
             this.panelHome.Controls.Add(this.lblTpToDo);
             this.panelHome.Controls.Add(this.lblWelcome);
@@ -49,47 +48,44 @@ namespace TPReminder.Forms
             this.panelHome.ForeColor = System.Drawing.Color.Black;
             this.panelHome.Location = new System.Drawing.Point(0, 0);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(815, 453);
+            this.panelHome.Size = new System.Drawing.Size(699, 393);
             this.panelHome.TabIndex = 0;
             // 
             // lblNextTp
             // 
-            this.lblNextTp.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblNextTp.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblNextTp.ForeColor = System.Drawing.Color.White;
-            this.lblNextTp.Location = new System.Drawing.Point(44, 223);
+            this.lblNextTp.Location = new System.Drawing.Point(38, 193);
             this.lblNextTp.Name = "lblNextTp";
-            this.lblNextTp.Size = new System.Drawing.Size(724, 193);
+            this.lblNextTp.Size = new System.Drawing.Size(621, 167);
             this.lblNextTp.TabIndex = 4;
             this.lblNextTp.Text = "Faltan  días para entregar el trabajo: \n";
             // 
             // lblTpToDo
             // 
-            this.lblTpToDo.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblTpToDo.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblTpToDo.ForeColor = System.Drawing.Color.White;
-            this.lblTpToDo.Location = new System.Drawing.Point(44, 121);
+            this.lblTpToDo.Location = new System.Drawing.Point(38, 105);
             this.lblTpToDo.Name = "lblTpToDo";
-            this.lblTpToDo.Size = new System.Drawing.Size(617, 31);
+            this.lblTpToDo.Size = new System.Drawing.Size(529, 27);
             this.lblTpToDo.TabIndex = 3;
             this.lblTpToDo.Text = "Tienes  tareas por entregar";
             // 
             // lblWelcome
             // 
-            this.lblWelcome.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblWelcome.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.White;
-            this.lblWelcome.Location = new System.Drawing.Point(44, 22);
+            this.lblWelcome.Location = new System.Drawing.Point(38, 19);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(599, 31);
+            this.lblWelcome.Size = new System.Drawing.Size(513, 27);
             this.lblWelcome.TabIndex = 2;
             this.lblWelcome.Text = "Bienvenido,";
             // 
             // FormHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 453);
+            this.ClientSize = new System.Drawing.Size(699, 393);
             this.Controls.Add(this.panelHome);
             this.Name = "FormHome";
             this.Text = "FormHome";
@@ -97,11 +93,11 @@ namespace TPReminder.Forms
             this.ResumeLayout(false);
         }
 
-        #endregion
-
-        private System.Windows.Forms.Panel panelHome;
-        private System.Windows.Forms.Label lblWelcome;
-        private System.Windows.Forms.Label lblTpToDo;
         private System.Windows.Forms.Label lblNextTp;
+        private System.Windows.Forms.Label lblTpToDo;
+        private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Panel panelHome;
+
+        #endregion
     }
 }
