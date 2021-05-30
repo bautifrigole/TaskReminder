@@ -9,6 +9,7 @@ namespace TPReminder.Forms
         public FormAddNewTask()
         {
             InitializeComponent();
+            dateTimePicker1.MinDate = DateTime.Today;
         }
 
         private void iconButtonBrowse_Click(object sender, EventArgs e)

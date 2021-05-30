@@ -123,7 +123,7 @@ namespace TPReminder.Forms
             ActivateButton(sender, RgbColors.color3);
             OpenChildForm(new FormAddNewTask());
         }
-        
+
         private void settingsButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RgbColors.color4);

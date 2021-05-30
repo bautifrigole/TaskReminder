@@ -33,8 +33,8 @@ namespace TPReminder.Forms
         private void InitializeComponent()
         {
             this.panelHome = new System.Windows.Forms.Panel();
-            this.subjectTextBox = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.subjectTextBox = new System.Windows.Forms.TextBox();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,8 +47,8 @@ namespace TPReminder.Forms
             // panelHome
             // 
             this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
-            this.panelHome.Controls.Add(this.subjectTextBox);
             this.panelHome.Controls.Add(this.dateTimePicker1);
+            this.panelHome.Controls.Add(this.subjectTextBox);
             this.panelHome.Controls.Add(this.nameTextBox);
             this.panelHome.Controls.Add(this.label3);
             this.panelHome.Controls.Add(this.label2);
@@ -62,6 +62,15 @@ namespace TPReminder.Forms
             this.panelHome.Size = new System.Drawing.Size(800, 450);
             this.panelHome.TabIndex = 2;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(278, 225);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(127, 27);
+            this.dateTimePicker1.TabIndex = 12;
+            // 
             // subjectTextBox
             // 
             this.subjectTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
@@ -69,18 +78,6 @@ namespace TPReminder.Forms
             this.subjectTextBox.Name = "subjectTextBox";
             this.subjectTextBox.Size = new System.Drawing.Size(179, 27);
             this.subjectTextBox.TabIndex = 11;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(282, 227);
-            this.dateTimePicker1.MinDate = new System.DateTime(2021, 5, 28, 0, 0, 0, 0);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(139, 27);
-            this.dateTimePicker1.TabIndex = 10;
-            this.dateTimePicker1.Value = new System.DateTime(2021, 5, 28, 12, 2, 21, 0);
             // 
             // nameTextBox
             // 

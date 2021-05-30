@@ -68,7 +68,6 @@ namespace TPReminder.Forms
             // settingsButton
             // 
             this.settingsButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.settingsButton.Enabled = false;
             this.settingsButton.FlatAppearance.BorderSize = 0;
             this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.settingsButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
@@ -86,6 +85,7 @@ namespace TPReminder.Forms
             this.settingsButton.Text = "Configuración";
             this.settingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.settingsButton.UseVisualStyleBackColor = true;
+            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
             // 
             // addTaskButton
             // 

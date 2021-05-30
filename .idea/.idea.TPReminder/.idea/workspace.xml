@@ -20,29 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8fd0d-ccdb-408c-ad07-165e7275305c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/TPReminder/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/TPReminder/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/TPReminder.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/TPReminder.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Form1.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.FormAllTps.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.FormHome.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.FormSettings.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.FormSettings.resources" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.FormSettings.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" afterDir="false" />
@@ -111,18 +101,18 @@
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/CalendarController.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/KataTrolls.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormNewTask.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" />
-        <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" />
         <option value="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" />
+        <option value="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" />
       </list>
     </option>
   </component>
@@ -194,7 +184,8 @@
       <workItem from="1613099867153" duration="200000" />
       <workItem from="1613318494229" duration="54000" />
       <workItem from="1617939733743" duration="734000" />
-      <workItem from="1622211388151" duration="9314000" />
+      <workItem from="1622211388151" duration="9570000" />
+      <workItem from="1622401397392" duration="1739000" />
     </task>
     <servers />
   </component>
@@ -219,22 +210,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1622225598127">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1622403154465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1622225598127">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622403154465" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1622403154465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1622225598127">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622403154465" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1622403154465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1622225598127">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622403154465" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1622403154465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622225598127" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622403154465" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1622401879034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622401879034" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

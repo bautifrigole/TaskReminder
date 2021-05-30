@@ -31,11 +31,9 @@ namespace TPReminder.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSettings));
             this.panelHome = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.startupCheckBox = new System.Windows.Forms.CheckBox();
             this.lblHowToUse = new System.Windows.Forms.Label();
-            this.iconButtonBrowse = new FontAwesome.Sharp.IconButton();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.panelHome.SuspendLayout();
             this.SuspendLayout();
@@ -43,9 +41,8 @@ namespace TPReminder.Forms
             // panelHome
             // 
             this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
-            this.panelHome.Controls.Add(this.label1);
+            this.panelHome.Controls.Add(this.startupCheckBox);
             this.panelHome.Controls.Add(this.lblHowToUse);
-            this.panelHome.Controls.Add(this.iconButtonBrowse);
             this.panelHome.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelHome.ForeColor = System.Drawing.Color.Black;
             this.panelHome.Location = new System.Drawing.Point(0, 0);
@@ -53,46 +50,29 @@ namespace TPReminder.Forms
             this.panelHome.Size = new System.Drawing.Size(682, 380);
             this.panelHome.TabIndex = 1;
             // 
-            // label1
+            // startupCheckBox
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(36, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(621, 34);
-            this.label1.TabIndex = 6;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.startupCheckBox.Checked = true;
+            this.startupCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.startupCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.startupCheckBox.Location = new System.Drawing.Point(267, 54);
+            this.startupCheckBox.Name = "startupCheckBox";
+            this.startupCheckBox.Size = new System.Drawing.Size(22, 23);
+            this.startupCheckBox.TabIndex = 6;
+            this.startupCheckBox.Text = "checkBox1";
+            this.startupCheckBox.UseVisualStyleBackColor = true;
+            this.startupCheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // lblHowToUse
             // 
             this.lblHowToUse.BackColor = System.Drawing.Color.Transparent;
             this.lblHowToUse.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblHowToUse.ForeColor = System.Drawing.Color.White;
-            this.lblHowToUse.Location = new System.Drawing.Point(36, 78);
+            this.lblHowToUse.Location = new System.Drawing.Point(21, 52);
             this.lblHowToUse.Name = "lblHowToUse";
-            this.lblHowToUse.Size = new System.Drawing.Size(701, 188);
+            this.lblHowToUse.Size = new System.Drawing.Size(240, 43);
             this.lblHowToUse.TabIndex = 5;
-            this.lblHowToUse.Text = resources.GetString("lblHowToUse.Text");
-            // 
-            // iconButtonBrowse
-            // 
-            this.iconButtonBrowse.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (253)))), ((int) (((byte) (138)))), ((int) (((byte) (114)))));
-            this.iconButtonBrowse.FlatAppearance.BorderSize = 0;
-            this.iconButtonBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonBrowse.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonBrowse.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.iconButtonBrowse.ForeColor = System.Drawing.Color.Black;
-            this.iconButtonBrowse.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButtonBrowse.IconColor = System.Drawing.Color.Black;
-            this.iconButtonBrowse.IconSize = 16;
-            this.iconButtonBrowse.Location = new System.Drawing.Point(254, 289);
-            this.iconButtonBrowse.Name = "iconButtonBrowse";
-            this.iconButtonBrowse.Rotation = 0D;
-            this.iconButtonBrowse.Size = new System.Drawing.Size(143, 46);
-            this.iconButtonBrowse.TabIndex = 3;
-            this.iconButtonBrowse.Text = "Examinar carpeta de tareas";
-            this.iconButtonBrowse.UseVisualStyleBackColor = false;
+            this.lblHowToUse.Text = "Iniciar con Windows";
             // 
             // folderBrowserDialog
             // 
@@ -112,10 +92,9 @@ namespace TPReminder.Forms
         }
 
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
-        private FontAwesome.Sharp.IconButton iconButtonBrowse;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblHowToUse;
         private System.Windows.Forms.Panel panelHome;
+        private System.Windows.Forms.CheckBox startupCheckBox;
 
         #endregion
     }

@@ -117,26 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Requisitos para el correcto funcionamiento del programa:
-
-Indicar ruta de la carpeta con los trabajos sin hacer
-Colocar el siguiente formato de nombre para todos los archivos:
-"Mes.Día - Materia - Título del TP"
-Ej: "09.10 - FEC - CIERRE DE LOS DERECHOS HUMANOS"
-*Importante primero el mes, después el día
-</value>
-  </data>
-  <data name="lblHowToUse.Text" xml:space="preserve">
-    <value>  - Indicar ruta de la carpeta con los trabajos sin hacer
-
-  - Colocar el siguiente formato de nombre para todos los archivos: 
-    "Mes.Día - Materia - Título del TP"
-
-  Ej: "09.17 - FEC - CIERRE DE LOS DERECHOS HUMANOS"
-
-  *Importante primero el mes, después el día</value>
-  </data>
   <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>12, 17</value>
   </metadata>

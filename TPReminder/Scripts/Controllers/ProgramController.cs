@@ -13,6 +13,7 @@ namespace TPReminder.Scripts.Controllers
     {
         private static readonly TaskController TaskController = new TaskController();
         private static readonly string Path = Application.StartupPath + "/TPsToDo";
+        private static bool _hasStartWithWindows = true;
 
         public static int TasksToDoAmount;
         public static int DaysToSubmitNextTask;
@@ -60,12 +61,24 @@ namespace TPReminder.Scripts.Controllers
                 current + "\n" + "Tarea: " + t.GetTitle() + "\n" + "    Materia: " + t.GetSubject() + "\n" + "    Fecha de entrega: " + t.GetDate().Day);
         }
 
+        public static void SetHasStartWithWindows(bool value)
+        {
+            _hasStartWithWindows = value;
+        }
+
         private static void SetAppInStartup()
         {
-            RegistryKey registryKey = Registry.CurrentUser.OpenSubKey
+            var registryKey = Registry.CurrentUser.OpenSubKey
                 ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
-
-            registryKey?.SetValue("TPReminder", Application.ExecutablePath);
+            if (_hasStartWithWindows)
+            {
+                registryKey?.SetValue("TPReminder", Application.ExecutablePath);
+            }
+            else
+            {
+                if(registryKey?.GetValue("TPReminder") != null)
+                    registryKey?.DeleteValue("TPReminder");
+            }
         }
 
         private static void InitializeTaskFolder()
