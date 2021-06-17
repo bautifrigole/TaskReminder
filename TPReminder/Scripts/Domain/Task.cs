@@ -4,9 +4,9 @@ namespace TPReminder.Scripts.Domain
 {
     public class Task
     {
-        private string Title { get; set; }
-        private DateTime Date { get; set; }
-        private string Subject { get; set; }
+        public string Title { get; set; }
+        public DateTime Date { get; set; }
+        public string Subject { get; set; }
 
         public Task(string title, DateTime date, string subject)
         {
@@ -17,7 +17,7 @@ namespace TPReminder.Scripts.Domain
         
         public string GetTaskInfo()
         {
-            return "Tarea: " + Title + "\n" + "    Materia: " + Subject + "\n" + "    Fecha de entrega: " + Date.Day;
+            return "Tarea: " + Title + "\n" + "    Materia: " + Subject + "\n" + "    Fecha de entrega: " + Date.ToShortDateString();
         }
 
         public string GetTitle()

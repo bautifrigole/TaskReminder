@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using Microsoft.Win32;
@@ -12,12 +11,11 @@ namespace TPReminder.Scripts.Controllers
     internal static class ProgramController
     {
         private static readonly TaskController TaskController = new TaskController();
-        private static readonly string Path = Application.StartupPath + "/TPsToDo";
         private static bool _hasStartWithWindows = true;
 
         public static int TasksToDoAmount;
         public static int DaysToSubmitNextTask;
-        
+
         [STAThread]
         private static void Main()
         {
@@ -57,8 +55,7 @@ namespace TPReminder.Scripts.Controllers
         
         public static string GetAllTasksToDoText()
         {
-            return TaskController.GetTasks().Aggregate("", (current, t) => 
-                current + "\n" + "Tarea: " + t.GetTitle() + "\n" + "    Materia: " + t.GetSubject() + "\n" + "    Fecha de entrega: " + t.GetDate().Day);
+            return TaskController.GetTasks().Aggregate("", (current, t) => current + t.GetTaskInfo() + "\n" + "\n");
         }
 
         public static void SetHasStartWithWindows(bool value)
@@ -79,11 +76,6 @@ namespace TPReminder.Scripts.Controllers
                 if(registryKey?.GetValue("TPReminder") != null)
                     registryKey?.DeleteValue("TPReminder");
             }
-        }
-
-        private static void InitializeTaskFolder()
-        {
-            if (!Directory.Exists(Path)) Directory.CreateDirectory(Path);
         }
 
         /*private static void FindNextTask()

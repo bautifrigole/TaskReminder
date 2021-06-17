@@ -14,3 +14,5 @@ C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Forms.Fo
 C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Forms.FormHome.resources
 C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Forms.FormSettings.resources
 C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Forms.FormAddNewTask.resources
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\Newtonsoft.Json.xml
