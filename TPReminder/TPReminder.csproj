@@ -89,6 +89,7 @@
     <Compile Include="Scripts\Controllers\ProgramController.cs" />
     <Compile Include="Scripts\Controllers\TaskController.cs" />
     <Compile Include="Scripts\Domain\Task.cs" />
+    <Compile Include="Scripts\Domain\TaskBlock.cs" />
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

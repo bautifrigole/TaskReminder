@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using FontAwesome.Sharp;
 
 namespace TPReminder.Forms
 {
@@ -53,9 +54,9 @@ namespace TPReminder.Forms
             // 
             this.lblTpsToDo.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblTpsToDo.ForeColor = System.Drawing.Color.White;
-            this.lblTpsToDo.Location = new System.Drawing.Point(38, 75);
+            this.lblTpsToDo.Location = new System.Drawing.Point(49, 66);
             this.lblTpsToDo.Name = "lblTpsToDo";
-            this.lblTpsToDo.Size = new System.Drawing.Size(643, 302);
+            this.lblTpsToDo.Size = new System.Drawing.Size(632, 322);
             this.lblTpsToDo.TabIndex = 4;
             // 
             // lblTpsToDoTitle

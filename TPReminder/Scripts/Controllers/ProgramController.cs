@@ -38,11 +38,23 @@ namespace TPReminder.Scripts.Controllers
         {
             return TaskController.GetTasks();
         }
+        
+        public static void DeleteTask(Task task)
+        {
+            TaskController.DeleteTask(task);
+        }
 
         public static int GetDaysToSubmitNextTask()
         {
             if (TaskController.GetTasks() != null && TaskController.GetTasks().Count != 0)
-                DaysToSubmitNextTask = TaskController.GetTasks()[0].GetDate().DayOfYear - DateTime.Now.DayOfYear;
+            {
+                var yearDifference = DateTime.Now.Year - TaskController.GetTasks()[0].GetDate().Year;
+                if (yearDifference == 0)
+                    DaysToSubmitNextTask = TaskController.GetTasks()[0].GetDate().DayOfYear - DateTime.Now.DayOfYear;
+                else
+                    DaysToSubmitNextTask = TaskController.GetTasks()[0].GetDate().DayOfYear - DateTime.Now.DayOfYear 
+                                           - 365*yearDifference;
+            }
             return DaysToSubmitNextTask;
         }
         

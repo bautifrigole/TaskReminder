@@ -55,24 +55,36 @@ namespace TPReminder.Forms
             if (ProgramController.GetTasks().Count == 0) return;
             
             var daysToSubmitNextTask = ProgramController.GetDaysToSubmitNextTask();
-            var nextTaskToSubmitName = ProgramController.GetTaskController().GetNextTaskToSubmit().GetTitle();
-            
+            var nextTasks = ProgramController.GetTaskController().GetNextTasksToSubmit();
+            var nextTaskToSubmitName = "";
+
+            for (int i = 0; i < nextTasks.Count; i++)
+            {
+                if (i == 0)
+                    nextTaskToSubmitName += nextTasks[i].Title;
+                else if (i >= nextTasks.Count-1)
+                    nextTaskToSubmitName += " y "+nextTasks[i].Title;
+                else
+                    nextTaskToSubmitName += ", "+nextTasks[i].Title;
+            }
+
+            var keyTask = nextTasks.Count == 1 ? "el trabajo" : "los trabajos";
             if (daysToSubmitNextTask > 1)
             {
-                lblNextTp.Text = "Faltan " + daysToSubmitNextTask + " días para entregar el trabajo: \n" +
+                lblNextTp.Text = "Faltan " + daysToSubmitNextTask + " días para entregar "+keyTask+": \n" +
                                  nextTaskToSubmitName;
             }
             else if (daysToSubmitNextTask == 1)
             {
-                lblNextTp.Text = "Mañana debes entregar el trabajo: \n" + nextTaskToSubmitName;
+                lblNextTp.Text = "Mañana debes entregar "+keyTask+": \n" + nextTaskToSubmitName;
             }
             else if (daysToSubmitNextTask == 0)
             {
-                lblNextTp.Text = "Hoy debes entregar el trabajo: \n" + nextTaskToSubmitName;
+                lblNextTp.Text = "Hoy debes entregar "+keyTask+": \n" + nextTaskToSubmitName;
             }
             else if (daysToSubmitNextTask < 0)
             {
-                lblNextTp.Text = "Debías entregar hace " + (daysToSubmitNextTask * -1) + " días el trabajo: \n" +
+                lblNextTp.Text = "Debías entregar hace " + (daysToSubmitNextTask * -1) + " días "+keyTask+": \n" +
                                  nextTaskToSubmitName;
             }
         }

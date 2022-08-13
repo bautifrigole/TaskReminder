@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using TPReminder.Scripts.Domain;
@@ -22,14 +23,25 @@ namespace TPReminder.Scripts.Controllers
         {
             var task = new Task(title, date, subject);
             _tasks.Add(task);
-            SaveTask(task);
+            AddTask(task);
+        }
+        
+        public void DeleteTask(Task task)
+        {
+            _tasks.Remove(task);
+            _tasksJson.Remove(JsonConvert.SerializeObject(task, Formatting.Indented));
+            SaveTasks();
         }
 
-        private void SaveTask(Task task)
+        private void AddTask(Task task)
         {
             _tasksJson.Add(JsonConvert.SerializeObject(task, Formatting.Indented));
             MessageBox.Show("¡Creada con éxito!" + "\n" + task.GetTaskInfo());
-            
+            SaveTasks();
+        }
+        
+        private void SaveTasks()
+        {
             using (var file = File.CreateText(TasksToDoPath))
             {
                 var serializer = new JsonSerializer();
@@ -53,9 +65,9 @@ namespace TPReminder.Scripts.Controllers
             return _tasks;
         }
 
-        public Task GetNextTaskToSubmit()
+        public List<Task> GetNextTasksToSubmit()
         {
-            return _tasks[0];
+            return _tasks.Where(t => t.Date.ToShortDateString() == _tasks[0].Date.ToShortDateString()).ToList();
         }
     }
 }
