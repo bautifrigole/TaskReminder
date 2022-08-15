@@ -12,9 +12,10 @@ namespace TPReminder.Forms
             dateTimePicker1.MinDate = DateTime.Today;
         }
 
-        private void iconButtonBrowse_Click(object sender, EventArgs e)
+        private void saveButton_Click(object sender, EventArgs e)
         {
             ProgramController.GetTaskController().CreateTask(nameTextBox.Text, dateTimePicker1.Value, subjectTextBox.Text);
+            ProgramController.UpdateFormsInfo();
         }
     }
 }

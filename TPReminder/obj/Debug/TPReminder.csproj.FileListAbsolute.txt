@@ -16,3 +16,4 @@ C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Forms.Fo
 C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\Newtonsoft.Json.dll
 C:\Users\bauti\RiderProjects\TPReminder\TPReminder\bin\Debug\Newtonsoft.Json.xml
 C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.csproj.AssemblyReference.cache
+C:\Users\bauti\RiderProjects\TPReminder\TPReminder\obj\Debug\TPReminder.Forms.FormEditTask.resources

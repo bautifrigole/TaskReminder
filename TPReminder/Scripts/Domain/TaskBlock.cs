@@ -11,15 +11,12 @@ namespace TPReminder.Scripts.Domain
         public Panel panel;
         
         private Task _task;
-        private Label _label;
         private IconButton _deleteButton;
         private IconButton _editButton;
-        private FormAllTps formAllTps;
 
-        public TaskBlock(Task task, Label parent, int id, FormAllTps formAllTps)
+        public TaskBlock(Task task, Control parent, int id)
         {
             _task = task;
-            this.formAllTps = formAllTps;
             panel = new Panel()
             {
                 Location = new System.Drawing.Point(50, 68),
@@ -30,7 +27,7 @@ namespace TPReminder.Scripts.Domain
                 Parent = parent
             };
             
-            _label = new Label
+            var label = new Label
             {
                 Font = new System.Drawing.Font("Century Gothic", 14F, 
                     System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0))),
@@ -90,12 +87,13 @@ namespace TPReminder.Scripts.Domain
         private void DeleteButtonHandler(object sender, EventArgs e)
         {
             ProgramController.DeleteTask(_task);
-            formAllTps.UpdateTasksText();
+            ProgramController.FormAllTps.UpdateTasksText();
         }
         
         private void EditButtonHandler(object sender, EventArgs e)
         {
-            
+            var editForm = new FormEditTask(_task);
+            editForm.Show();
         }
     }
 }

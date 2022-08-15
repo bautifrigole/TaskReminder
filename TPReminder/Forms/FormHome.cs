@@ -15,6 +15,12 @@ namespace TPReminder.Forms
             UpdateNextTaskToSubmitInfo();
         }
 
+        public void UpdateInfo()
+        {
+            UpdateTasksToDoQuantity();
+            UpdateNextTaskToSubmitInfo();
+        }
+
         private void GiveGreeting()
         {
             if(DateTime.Now.Hour >= 6 && DateTime.Now.Hour < 12)

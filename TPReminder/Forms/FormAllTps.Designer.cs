@@ -40,7 +40,7 @@ namespace TPReminder.Forms
             // 
             // panelHome
             // 
-            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
+            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panelHome.Controls.Add(this.lblTpsToDo);
             this.panelHome.Controls.Add(this.lblTpsToDoTitle);
             this.panelHome.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -52,7 +52,7 @@ namespace TPReminder.Forms
             // 
             // lblTpsToDo
             // 
-            this.lblTpsToDo.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblTpsToDo.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTpsToDo.ForeColor = System.Drawing.Color.White;
             this.lblTpsToDo.Location = new System.Drawing.Point(49, 66);
             this.lblTpsToDo.Name = "lblTpsToDo";
@@ -61,7 +61,7 @@ namespace TPReminder.Forms
             // 
             // lblTpsToDoTitle
             // 
-            this.lblTpsToDoTitle.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblTpsToDoTitle.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTpsToDoTitle.ForeColor = System.Drawing.Color.White;
             this.lblTpsToDoTitle.Location = new System.Drawing.Point(38, 19);
             this.lblTpsToDoTitle.Name = "lblTpsToDoTitle";

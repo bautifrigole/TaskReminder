@@ -17,7 +17,7 @@ namespace TPReminder.Scripts.Domain
         
         public string GetTaskInfo()
         {
-            return "Tarea: " + Title + "\n" + "    Materia: " + Subject + "\n" + "    Fecha de entrega: " + Date.ToShortDateString();
+            return "Tarea: " + Title + "\n" + "Materia: " + Subject + "\n" + "Fecha de entrega: " + Date.ToShortDateString();
         }
 
         public string GetTitle()

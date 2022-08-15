@@ -1,9 +1,8 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
 namespace TPReminder.Forms
 {
-    partial class FormAddNewTask
+    partial class FormEditTask
     {
         /// <summary>
         /// Required designer variable.
@@ -46,7 +45,7 @@ namespace TPReminder.Forms
             // 
             // panelHome
             // 
-            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
+            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panelHome.Controls.Add(this.dateTimePicker1);
             this.panelHome.Controls.Add(this.subjectTextBox);
             this.panelHome.Controls.Add(this.nameTextBox);
@@ -59,12 +58,12 @@ namespace TPReminder.Forms
             this.panelHome.ForeColor = System.Drawing.Color.Black;
             this.panelHome.Location = new System.Drawing.Point(0, 0);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(800, 450);
+            this.panelHome.Size = new System.Drawing.Size(448, 382);
             this.panelHome.TabIndex = 2;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(278, 225);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -73,7 +72,7 @@ namespace TPReminder.Forms
             // 
             // subjectTextBox
             // 
-            this.subjectTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.subjectTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subjectTextBox.Location = new System.Drawing.Point(169, 153);
             this.subjectTextBox.Name = "subjectTextBox";
             this.subjectTextBox.Size = new System.Drawing.Size(179, 27);
@@ -81,7 +80,7 @@ namespace TPReminder.Forms
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.nameTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameTextBox.Location = new System.Drawing.Point(169, 77);
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(179, 27);
@@ -90,7 +89,7 @@ namespace TPReminder.Forms
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(36, 154);
             this.label3.Name = "label3";
@@ -101,7 +100,7 @@ namespace TPReminder.Forms
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(36, 225);
             this.label2.Name = "label2";
@@ -112,18 +111,18 @@ namespace TPReminder.Forms
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(36, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(621, 34);
+            this.label1.Size = new System.Drawing.Size(292, 34);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Crea una nueva tarea";
+            this.label1.Text = "Editar";
             // 
             // lblHowToUse
             // 
             this.lblHowToUse.BackColor = System.Drawing.Color.Transparent;
-            this.lblHowToUse.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblHowToUse.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHowToUse.ForeColor = System.Drawing.Color.White;
             this.lblHowToUse.Location = new System.Drawing.Point(36, 78);
             this.lblHowToUse.Name = "lblHowToUse";
@@ -131,13 +130,13 @@ namespace TPReminder.Forms
             this.lblHowToUse.TabIndex = 5;
             this.lblHowToUse.Text = "Nombre: ";
             // 
-            // iconButtonBrowse
+            // saveButton
             // 
-            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (253)))), ((int) (((byte) (138)))), ((int) (((byte) (114)))));
+            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(138)))), ((int)(((byte)(114)))));
             this.saveButton.FlatAppearance.BorderSize = 0;
             this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.saveButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.saveButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveButton.ForeColor = System.Drawing.Color.Black;
             this.saveButton.IconChar = FontAwesome.Sharp.IconChar.None;
             this.saveButton.IconColor = System.Drawing.Color.Black;
@@ -147,19 +146,20 @@ namespace TPReminder.Forms
             this.saveButton.Rotation = 0D;
             this.saveButton.Size = new System.Drawing.Size(143, 46);
             this.saveButton.TabIndex = 3;
-            this.saveButton.Text = "Crear";
+            this.saveButton.Text = "Guardar";
             this.saveButton.UseVisualStyleBackColor = false;
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
-            // FormAddNewTask
+            // FormEditTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(448, 382);
             this.Controls.Add(this.panelHome);
             this.Location = new System.Drawing.Point(15, 15);
-            this.Name = "FormAddNewTask";
+            this.Name = "FormEditTask";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Editar tarea";
             this.panelHome.ResumeLayout(false);
             this.panelHome.PerformLayout();
             this.ResumeLayout(false);

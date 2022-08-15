@@ -28,6 +28,9 @@ namespace TPReminder.Scripts.Controllers
         
         public void DeleteTask(Task task)
         {
+            var result = MessageBox.Show("¿Quieres eliminar la tarea: " + task.GetTitle() + "?", "Advertencia", MessageBoxButtons.YesNo);
+
+            if (result != DialogResult.Yes) return;
             _tasks.Remove(task);
             _tasksJson.Remove(JsonConvert.SerializeObject(task, Formatting.Indented));
             SaveTasks();
@@ -36,12 +39,18 @@ namespace TPReminder.Scripts.Controllers
         private void AddTask(Task task)
         {
             _tasksJson.Add(JsonConvert.SerializeObject(task, Formatting.Indented));
-            MessageBox.Show("¡Creada con éxito!" + "\n" + task.GetTaskInfo());
+            MessageBox.Show("¡Creada con éxito!" + "\n" + task.GetTaskInfo(), "Aviso");
             SaveTasks();
         }
         
-        private void SaveTasks()
+        public void SaveTasks()
         {
+            _tasksJson = new List<string>();
+            foreach (var task in _tasks)
+            {
+                _tasksJson.Add(JsonConvert.SerializeObject(task, Formatting.Indented));
+            }
+            
             using (var file = File.CreateText(TasksToDoPath))
             {
                 var serializer = new JsonSerializer();

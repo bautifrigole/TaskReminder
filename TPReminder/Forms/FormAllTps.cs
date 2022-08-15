@@ -45,7 +45,7 @@ namespace TPReminder.Forms
             foreach (var task in ProgramController.GetTasks())
             {
                 count++;
-                var taskBlock = new TaskBlock(task, lblTpsToDo, count, this);
+                var taskBlock = new TaskBlock(task, lblTpsToDo, count);
                 _taskBlocks.Add(taskBlock);
             }
         }

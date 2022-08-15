@@ -20,13 +20,15 @@ namespace TPReminder.Forms
             panelMenu.Controls.Add(_leftBorderBtn);
             
             ActivateButton(mainMenuButton, RgbColors.color1);
-            OpenChildForm(new FormHome());
+            ProgramController.FormHome = new FormHome();
+            OpenChildForm(ProgramController.FormHome);
         }
 
         public void GetPath()
         {
             ActivateButton(settingsButton, RgbColors.color3);
-            OpenChildForm(new FormSettings());
+            ProgramController.FormSettings = new FormSettings();
+            OpenChildForm(ProgramController.FormSettings);
         }
 
         private struct RgbColors
@@ -109,25 +111,29 @@ namespace TPReminder.Forms
         private void mainMenuButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RgbColors.color1);
-            OpenChildForm(new FormHome());
+            ProgramController.FormHome = new FormHome();
+            OpenChildForm(ProgramController.FormHome);
         }
 
         private void allTpButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RgbColors.color2);
-            OpenChildForm(new FormAllTps());
+            ProgramController.FormAllTps = new FormAllTps();
+            OpenChildForm(ProgramController.FormAllTps);
         }
         
         private void addTaskButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RgbColors.color3);
-            OpenChildForm(new FormAddNewTask());
+            ProgramController.FormAddNewTask = new FormAddNewTask();
+            OpenChildForm(ProgramController.FormAddNewTask);
         }
 
         private void settingsButton_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RgbColors.color4);
-            OpenChildForm(new FormSettings());
+            ProgramController.FormSettings = new FormSettings();
+            OpenChildForm(ProgramController.FormSettings);
         }
     }
 }

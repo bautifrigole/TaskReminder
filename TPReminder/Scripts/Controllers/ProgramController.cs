@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using Microsoft.Win32;
@@ -16,17 +17,30 @@ namespace TPReminder.Scripts.Controllers
         public static int TasksToDoAmount;
         public static int DaysToSubmitNextTask;
 
+        public static MainForm MainForm;
+        public static FormHome FormHome;
+        public static FormAllTps FormAllTps;
+        public static FormAddNewTask FormAddNewTask;
+        public static FormSettings FormSettings;
+
         [STAThread]
         private static void Main()
         {
             // Ask to set in the start up
             SetAppInStartup();
-            //InitializeTpFolder();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
-            Application.Run(new MainForm());
+
+            MainForm = new MainForm();
+            MainForm.Location = new Point(0, 0);
+            Application.Run(MainForm);
+        }
+
+        public static void UpdateFormsInfo()
+        {
+            FormHome.UpdateInfo();
+            FormAllTps.UpdateTasksText();
         }
 
         public static TaskController GetTaskController()
@@ -42,6 +56,11 @@ namespace TPReminder.Scripts.Controllers
         public static void DeleteTask(Task task)
         {
             TaskController.DeleteTask(task);
+        }
+        
+        public static void SaveTasks()
+        {
+            TaskController.SaveTasks();
         }
 
         public static int GetDaysToSubmitNextTask()
@@ -89,70 +108,5 @@ namespace TPReminder.Scripts.Controllers
                     registryKey?.DeleteValue("TPReminder");
             }
         }
-
-        /*private static void FindNextTask()
-        {
-            foreach (string f in Directory.GetFiles(path))
-            {
-                CurrentTpPath = Path.GetFileNameWithoutExtension(f);
-                Console.WriteLine("CurrentTpPath: " + CurrentTpPath);
-                break;
-            }
-
-            if (CurrentTpPath == null) return;
-            char[] b = new char[CurrentTpPath.Length];
-
-            using (StringReader sr = new StringReader(CurrentTpPath))
-            {
-                // Read 2 characters from the string into the array. Month
-                sr.Read(b, 0, 2);
-                CurrentTpMonth = new string(b);
-                
-                // Remove 1 characters
-                sr.Read(b, 0, 1);
-                
-                // Read 2 characters from the string into the array. Day
-                sr.Read(b, 0, 2);
-                CurrentTpDay = new string(b);
-                
-                // Remove 3 characters
-                sr.Read(b, 0, 3);
-                
-                // Read the rest of the string starting at the current string position.
-                sr.Read(b, 0, CurrentTpPath.Length);
-                CurrentTpName = new string(b);
-            }
-            
-            DateTime tpDate = new DateTime(20, Int32.Parse(CurrentTpMonth), Int32.Parse(CurrentTpDay));
-
-            DaysToSubmit = tpDate.DayOfYear - DateTime.Now.DayOfYear;
-        }
-
-        private static void SetAllTasksNames()
-        {
-            foreach (var t in TaskController.GetTasks())
-            {
-                AllTasksToDoText = AllTasksToDoText + Environment.NewLine + "Tarea: " +t.GetTitle() + Environment.NewLine +
-                             "    Materia: " + t.GetSubject() + Environment.NewLine +
-                             "    Fecha de entrega: "+ t.GetDate().Day;
-            }
-
-            //DirectorySearch(path);
-        }
-        
-        private static void DirectorySearch(string dir)
-        {
-            try
-            {
-                foreach (string f in Directory.GetFiles(dir))
-                {
-                    AllTasksToDoText = (System.IO.Path.GetFileNameWithoutExtension(f));
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }*/
     }
 }

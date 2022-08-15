@@ -46,14 +46,14 @@ namespace TPReminder.Forms
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureTitle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTitle)).BeginInit();
             this.panelTitleBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.iconCurrentChildForm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (30)))), ((int) (((byte) (31)))), ((int) (((byte) (68)))));
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
             this.panelMenu.Controls.Add(this.settingsButton);
             this.panelMenu.Controls.Add(this.addTaskButton);
             this.panelMenu.Controls.Add(this.allTpButton);
@@ -71,7 +71,7 @@ namespace TPReminder.Forms
             this.settingsButton.FlatAppearance.BorderSize = 0;
             this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.settingsButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.settingsButton.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.settingsButton.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.settingsButton.ForeColor = System.Drawing.Color.White;
             this.settingsButton.IconChar = FontAwesome.Sharp.IconChar.UserCog;
             this.settingsButton.IconColor = System.Drawing.Color.White;
@@ -93,7 +93,7 @@ namespace TPReminder.Forms
             this.addTaskButton.FlatAppearance.BorderSize = 0;
             this.addTaskButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addTaskButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.addTaskButton.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.addTaskButton.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addTaskButton.ForeColor = System.Drawing.Color.White;
             this.addTaskButton.IconChar = FontAwesome.Sharp.IconChar.FolderPlus;
             this.addTaskButton.IconColor = System.Drawing.Color.White;
@@ -115,7 +115,7 @@ namespace TPReminder.Forms
             this.allTpButton.FlatAppearance.BorderSize = 0;
             this.allTpButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.allTpButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.allTpButton.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.allTpButton.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.allTpButton.ForeColor = System.Drawing.Color.White;
             this.allTpButton.IconChar = FontAwesome.Sharp.IconChar.FileAlt;
             this.allTpButton.IconColor = System.Drawing.Color.White;
@@ -137,7 +137,7 @@ namespace TPReminder.Forms
             this.mainMenuButton.FlatAppearance.BorderSize = 0;
             this.mainMenuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mainMenuButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.mainMenuButton.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.mainMenuButton.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainMenuButton.ForeColor = System.Drawing.Color.White;
             this.mainMenuButton.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.mainMenuButton.IconColor = System.Drawing.Color.White;
@@ -167,7 +167,7 @@ namespace TPReminder.Forms
             // 
             // pictureTitle
             // 
-            this.pictureTitle.Image = ((System.Drawing.Image) (resources.GetObject("pictureTitle.Image")));
+            this.pictureTitle.Image = ((System.Drawing.Image)(resources.GetObject("pictureTitle.Image")));
             this.pictureTitle.Location = new System.Drawing.Point(12, 12);
             this.pictureTitle.Name = "pictureTitle";
             this.pictureTitle.Size = new System.Drawing.Size(190, 90);
@@ -177,7 +177,7 @@ namespace TPReminder.Forms
             // 
             // panelTitleBar
             // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (26)))), ((int) (((byte) (25)))), ((int) (((byte) (52)))));
+            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(52)))));
             this.panelTitleBar.Controls.Add(this.iconCurrentChildForm);
             this.panelTitleBar.Controls.Add(this.lblTitleChildForm);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -201,7 +201,7 @@ namespace TPReminder.Forms
             // 
             // lblTitleChildForm
             // 
-            this.lblTitleChildForm.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblTitleChildForm.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitleChildForm.ForeColor = System.Drawing.Color.White;
             this.lblTitleChildForm.Location = new System.Drawing.Point(83, 22);
             this.lblTitleChildForm.Name = "lblTitleChildForm";
@@ -210,7 +210,7 @@ namespace TPReminder.Forms
             // 
             // panelDesktop
             // 
-            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
+            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 75);
             this.panelDesktop.Name = "panelDesktop";
@@ -221,20 +221,22 @@ namespace TPReminder.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1004, 519);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
-            this.Location = new System.Drawing.Point(15, 15);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "TP Reminder";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize) (this.pictureTitle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTitle)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize) (this.iconCurrentChildForm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).EndInit();
             this.ResumeLayout(false);
         }
 
