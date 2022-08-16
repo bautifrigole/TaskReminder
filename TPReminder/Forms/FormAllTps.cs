@@ -24,15 +24,15 @@ namespace TPReminder.Forms
 
             if (tasksAmount > 1)
             {
-                lblTpsToDoTitle.Text = "Los trabajos a realizar son los siguientes:";
+                lblTpsToDoTitle.Text = "The tasks to be carried out are the following:";
             }
             else if (tasksAmount == 1)
             {
-                lblTpsToDoTitle.Text = "El trabajo a realizar es el siguiente:";
+                lblTpsToDoTitle.Text = "The task to be carried out is the following:";
             }
             else if (tasksAmount == 0)
             {
-                lblTpsToDoTitle.Text = "¡No tienes ninguna tarea por entregar! ¡Puedes descansar!";
+                lblTpsToDoTitle.Text = "You don't have any task to hand in! You can rest!";
             }
             
             var count = 0;

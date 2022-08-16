@@ -25,15 +25,15 @@ namespace TPReminder.Forms
         {
             if(DateTime.Now.Hour >= 6 && DateTime.Now.Hour < 12)
             {
-                lblWelcome.Text = "Buen día,";
+                lblWelcome.Text = "Good morning,";
             }
             else if(DateTime.Now.Hour >= 12 && DateTime.Now.Hour < 20)
             {
-                lblWelcome.Text = "Buenas tardes,";
+                lblWelcome.Text = "Good evening,";
             }
             else if(DateTime.Now.Hour >= 20 || DateTime.Now.Hour < 6)
             {
-                lblWelcome.Text = "Buenas noches,";
+                lblWelcome.Text = "Good night,";
             }
         }
         
@@ -43,15 +43,15 @@ namespace TPReminder.Forms
             
             if (tasksToDoQuantity > 1)
             {
-                lblTpToDo.Text = "Tienes " + tasksToDoQuantity + " tareas por entregar";
+                lblTpToDo.Text = "You have " + tasksToDoQuantity + " tasks to hand in";
             }
             else if (tasksToDoQuantity == 1)
             {
-                lblTpToDo.Text = "Tienes " + tasksToDoQuantity + " tarea por entregar";
+                lblTpToDo.Text = "You have " + tasksToDoQuantity + " task to hand in";
             }
             else if (tasksToDoQuantity == 0)
             {
-                lblTpToDo.Text = "¡Yuju! ¡No tienes ninguna tarea por entregar!";
+                lblTpToDo.Text = "yoo-hoo! You don't have any homework to hand in!";
                 lblNextTp.Text = "";
             }
         }
@@ -74,23 +74,23 @@ namespace TPReminder.Forms
                     nextTaskToSubmitName += ", "+nextTasks[i].Title;
             }
 
-            var keyTask = nextTasks.Count == 1 ? "el trabajo" : "los trabajos";
+            var keyTask = nextTasks.Count == 1 ? "the task" : "the tasks";
             if (daysToSubmitNextTask > 1)
             {
-                lblNextTp.Text = "Faltan " + daysToSubmitNextTask + " días para entregar "+keyTask+": \n" +
+                lblNextTp.Text = "There are " + daysToSubmitNextTask + " days left to hand in "+keyTask+": \n" +
                                  nextTaskToSubmitName;
             }
             else if (daysToSubmitNextTask == 1)
             {
-                lblNextTp.Text = "Mañana debes entregar "+keyTask+": \n" + nextTaskToSubmitName;
+                lblNextTp.Text = "Tomorrow you must hand in "+keyTask+": \n" + nextTaskToSubmitName;
             }
             else if (daysToSubmitNextTask == 0)
             {
-                lblNextTp.Text = "Hoy debes entregar "+keyTask+": \n" + nextTaskToSubmitName;
+                lblNextTp.Text = "Today you must hand in "+keyTask+": \n" + nextTaskToSubmitName;
             }
             else if (daysToSubmitNextTask < 0)
             {
-                lblNextTp.Text = "Debías entregar hace " + (daysToSubmitNextTask * -1) + " días "+keyTask+": \n" +
+                lblNextTp.Text = "You have to hand in " + keyTask + " "+ (daysToSubmitNextTask * -1) + " days ago: \n" +
                                  nextTaskToSubmitName;
             }
         }

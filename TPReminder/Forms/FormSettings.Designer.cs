@@ -57,7 +57,7 @@ namespace TPReminder.Forms
             this.startupCheckBox.Checked = true;
             this.startupCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.startupCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startupCheckBox.Location = new System.Drawing.Point(249, 50);
+            this.startupCheckBox.Location = new System.Drawing.Point(257, 50);
             this.startupCheckBox.Name = "startupCheckBox";
             this.startupCheckBox.Size = new System.Drawing.Size(30, 30);
             this.startupCheckBox.TabIndex = 0;
@@ -73,7 +73,7 @@ namespace TPReminder.Forms
             this.lblHowToUse.Name = "lblHowToUse";
             this.lblHowToUse.Size = new System.Drawing.Size(240, 43);
             this.lblHowToUse.TabIndex = 5;
-            this.lblHowToUse.Text = "Iniciar con Windows";
+            this.lblHowToUse.Text = "Set in windows startup";
             // 
             // folderBrowserDialog
             // 

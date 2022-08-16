@@ -97,7 +97,7 @@ namespace TPReminder.Forms
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(260, 33);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Materia:";
+            this.label3.Text = "Subject:";
             // 
             // label2
             // 
@@ -108,7 +108,7 @@ namespace TPReminder.Forms
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(260, 33);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Fecha de entrega: ";
+            this.label2.Text = "Due date:";
             // 
             // label1
             // 
@@ -119,7 +119,7 @@ namespace TPReminder.Forms
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(621, 34);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Crea una nueva tarea";
+            this.label1.Text = "Add a new task";
             // 
             // lblHowToUse
             // 
@@ -130,7 +130,7 @@ namespace TPReminder.Forms
             this.lblHowToUse.Name = "lblHowToUse";
             this.lblHowToUse.Size = new System.Drawing.Size(260, 33);
             this.lblHowToUse.TabIndex = 5;
-            this.lblHowToUse.Text = "Nombre: ";
+            this.lblHowToUse.Text = "Name:";
             // 
             // saveButton
             // 
@@ -148,7 +148,7 @@ namespace TPReminder.Forms
             this.saveButton.Rotation = 0D;
             this.saveButton.Size = new System.Drawing.Size(143, 46);
             this.saveButton.TabIndex = 3;
-            this.saveButton.Text = "Crear";
+            this.saveButton.Text = "Add";
             this.saveButton.UseVisualStyleBackColor = false;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 

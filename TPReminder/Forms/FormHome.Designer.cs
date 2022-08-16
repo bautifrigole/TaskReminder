@@ -60,7 +60,7 @@ namespace TPReminder.Forms
             this.lblNextTp.Name = "lblNextTp";
             this.lblNextTp.Size = new System.Drawing.Size(621, 167);
             this.lblNextTp.TabIndex = 4;
-            this.lblNextTp.Text = "Faltan  días para entregar el trabajo: \n";
+            this.lblNextTp.Text = "There are  days left to submit the task:";
             // 
             // lblTpToDo
             // 
@@ -70,7 +70,7 @@ namespace TPReminder.Forms
             this.lblTpToDo.Name = "lblTpToDo";
             this.lblTpToDo.Size = new System.Drawing.Size(529, 27);
             this.lblTpToDo.TabIndex = 3;
-            this.lblTpToDo.Text = "Tienes  tareas por entregar";
+            this.lblTpToDo.Text = "You have  tasks to submit";
             // 
             // lblWelcome
             // 
@@ -80,7 +80,7 @@ namespace TPReminder.Forms
             this.lblWelcome.Name = "lblWelcome";
             this.lblWelcome.Size = new System.Drawing.Size(513, 27);
             this.lblWelcome.TabIndex = 2;
-            this.lblWelcome.Text = "Bienvenido,";
+            this.lblWelcome.Text = "Welcome,";
             // 
             // FormHome
             // 

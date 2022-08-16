@@ -96,7 +96,7 @@ namespace TPReminder.Forms
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(260, 33);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Materia:";
+            this.label3.Text = "Subject:";
             // 
             // label2
             // 
@@ -107,7 +107,7 @@ namespace TPReminder.Forms
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(260, 33);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Fecha de entrega: ";
+            this.label2.Text = "Due date:";
             // 
             // label1
             // 
@@ -118,7 +118,7 @@ namespace TPReminder.Forms
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(292, 34);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Editar";
+            this.label1.Text = "Edit";
             // 
             // lblHowToUse
             // 
@@ -129,7 +129,7 @@ namespace TPReminder.Forms
             this.lblHowToUse.Name = "lblHowToUse";
             this.lblHowToUse.Size = new System.Drawing.Size(260, 33);
             this.lblHowToUse.TabIndex = 5;
-            this.lblHowToUse.Text = "Nombre: ";
+            this.lblHowToUse.Text = "Name:";
             // 
             // saveButton
             // 
@@ -147,7 +147,7 @@ namespace TPReminder.Forms
             this.saveButton.Rotation = 0D;
             this.saveButton.Size = new System.Drawing.Size(143, 46);
             this.saveButton.TabIndex = 3;
-            this.saveButton.Text = "Guardar";
+            this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = false;
             // 
             // FormEditTask
@@ -161,7 +161,7 @@ namespace TPReminder.Forms
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "FormEditTask";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Editar tarea";
+            this.Text = "Edit task";
             this.panelHome.ResumeLayout(false);
             this.panelHome.PerformLayout();
             this.ResumeLayout(false);

@@ -83,7 +83,7 @@ namespace TPReminder.Forms
             this.settingsButton.Rotation = 0D;
             this.settingsButton.Size = new System.Drawing.Size(239, 100);
             this.settingsButton.TabIndex = 6;
-            this.settingsButton.Text = "Configuración";
+            this.settingsButton.Text = "Settings";
             this.settingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.settingsButton.UseVisualStyleBackColor = true;
             this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
@@ -105,7 +105,7 @@ namespace TPReminder.Forms
             this.addTaskButton.Rotation = 0D;
             this.addTaskButton.Size = new System.Drawing.Size(239, 100);
             this.addTaskButton.TabIndex = 5;
-            this.addTaskButton.Text = "Crear tarea";
+            this.addTaskButton.Text = "Add task";
             this.addTaskButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.addTaskButton.UseVisualStyleBackColor = true;
             this.addTaskButton.Click += new System.EventHandler(this.addTaskButton_Click);
@@ -127,7 +127,7 @@ namespace TPReminder.Forms
             this.allTpButton.Rotation = 0D;
             this.allTpButton.Size = new System.Drawing.Size(239, 100);
             this.allTpButton.TabIndex = 3;
-            this.allTpButton.Text = "Todas tus tareas";
+            this.allTpButton.Text = "Tasks";
             this.allTpButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.allTpButton.UseVisualStyleBackColor = true;
             this.allTpButton.Click += new System.EventHandler(this.allTpButton_Click);
@@ -150,7 +150,7 @@ namespace TPReminder.Forms
             this.mainMenuButton.Rotation = 0D;
             this.mainMenuButton.Size = new System.Drawing.Size(239, 100);
             this.mainMenuButton.TabIndex = 2;
-            this.mainMenuButton.Text = "Inicio";
+            this.mainMenuButton.Text = "Home";
             this.mainMenuButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.mainMenuButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.mainMenuButton.UseVisualStyleBackColor = true;
@@ -171,9 +171,9 @@ namespace TPReminder.Forms
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 22);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(36, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -182,12 +182,12 @@ namespace TPReminder.Forms
             // 
             this.label1.Font = new System.Drawing.Font("Product Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(64, 12);
+            this.label1.Location = new System.Drawing.Point(44, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 71);
+            this.label1.Size = new System.Drawing.Size(195, 77);
             this.label1.TabIndex = 2;
-            this.label1.Text = "TP Reminder";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Text = "Task Reminder";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelTitleBar
             // 
@@ -246,7 +246,7 @@ namespace TPReminder.Forms
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TP Reminder";
+            this.Text = "Task Reminder";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

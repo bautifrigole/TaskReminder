@@ -66,9 +66,9 @@ namespace TPReminder.Forms
             this.lblTpsToDoTitle.ForeColor = System.Drawing.Color.White;
             this.lblTpsToDoTitle.Location = new System.Drawing.Point(38, 19);
             this.lblTpsToDoTitle.Name = "lblTpsToDoTitle";
-            this.lblTpsToDoTitle.Size = new System.Drawing.Size(724, 27);
+            this.lblTpsToDoTitle.Size = new System.Drawing.Size(643, 27);
             this.lblTpsToDoTitle.TabIndex = 2;
-            this.lblTpsToDoTitle.Text = "Los trabajos a realizar son los siguientes:";
+            this.lblTpsToDoTitle.Text = "The tasks to be carried out are the following:";
             // 
             // FormAllTps
             // 
