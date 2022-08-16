@@ -31,6 +31,7 @@ namespace TPReminder.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSettings));
             this.panelHome = new System.Windows.Forms.Panel();
             this.startupCheckBox = new System.Windows.Forms.CheckBox();
             this.lblHowToUse = new System.Windows.Forms.Label();
@@ -40,7 +41,7 @@ namespace TPReminder.Forms
             // 
             // panelHome
             // 
-            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
+            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panelHome.Controls.Add(this.startupCheckBox);
             this.panelHome.Controls.Add(this.lblHowToUse);
             this.panelHome.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -52,21 +53,21 @@ namespace TPReminder.Forms
             // 
             // startupCheckBox
             // 
+            this.startupCheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.startupCheckBox.Checked = true;
             this.startupCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.startupCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.startupCheckBox.Location = new System.Drawing.Point(267, 54);
+            this.startupCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startupCheckBox.Location = new System.Drawing.Point(249, 50);
             this.startupCheckBox.Name = "startupCheckBox";
-            this.startupCheckBox.Size = new System.Drawing.Size(22, 23);
-            this.startupCheckBox.TabIndex = 6;
-            this.startupCheckBox.Text = "checkBox1";
+            this.startupCheckBox.Size = new System.Drawing.Size(30, 30);
+            this.startupCheckBox.TabIndex = 0;
             this.startupCheckBox.UseVisualStyleBackColor = true;
             this.startupCheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // lblHowToUse
             // 
             this.lblHowToUse.BackColor = System.Drawing.Color.Transparent;
-            this.lblHowToUse.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblHowToUse.Font = new System.Drawing.Font("Product Sans", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHowToUse.ForeColor = System.Drawing.Color.White;
             this.lblHowToUse.Location = new System.Drawing.Point(21, 52);
             this.lblHowToUse.Name = "lblHowToUse";
@@ -85,6 +86,7 @@ namespace TPReminder.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 380);
             this.Controls.Add(this.panelHome);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormSettings";
             this.Text = "FormSettings";
             this.panelHome.ResumeLayout(false);

@@ -137,5 +137,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bookmark-23_icon-icons.com_62115.ico" />
+    <Content Include="Resources\bookmark-23_icon-icons.com_62115.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

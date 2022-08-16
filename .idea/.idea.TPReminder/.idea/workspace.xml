@@ -20,27 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d8fd0d-ccdb-408c-ad07-165e7275305c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPReminder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TPReminder/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/Form1.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Domain/TaskBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Domain/TaskBlock.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/TPReminder.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/TPReminder.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TasksToDo" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TasksToDo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.MainForm.resources" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.MainForm.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.pdb" afterDir="false" />
@@ -68,6 +67,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/60b4b029527b4c25b20634af2ac29f982e4a8/55/41e4ca80/System.Drawing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Forms/Form1.resx" root0="FORCE_HIGHLIGHTING" />
@@ -136,16 +136,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.29052633",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.29052633&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" />
@@ -208,7 +208,9 @@
       <workItem from="1660370127937" duration="8529000" />
       <workItem from="1660419341714" duration="520000" />
       <workItem from="1660419887957" duration="1672000" />
-      <workItem from="1660599479250" duration="4133000" />
+      <workItem from="1660599479250" duration="5691000" />
+      <workItem from="1660607335327" duration="62000" />
+      <workItem from="1660607452148" duration="6448000" />
     </task>
     <servers />
   </component>

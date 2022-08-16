@@ -32,6 +32,7 @@ namespace TPReminder.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAddNewTask));
             this.panelHome = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.subjectTextBox = new System.Windows.Forms.TextBox();
@@ -46,7 +47,7 @@ namespace TPReminder.Forms
             // 
             // panelHome
             // 
-            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
+            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panelHome.Controls.Add(this.dateTimePicker1);
             this.panelHome.Controls.Add(this.subjectTextBox);
             this.panelHome.Controls.Add(this.nameTextBox);
@@ -64,33 +65,33 @@ namespace TPReminder.Forms
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.dateTimePicker1.Font = new System.Drawing.Font("Product Sans", 16F);
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(278, 225);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(127, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(127, 33);
             this.dateTimePicker1.TabIndex = 12;
             // 
             // subjectTextBox
             // 
-            this.subjectTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.subjectTextBox.Font = new System.Drawing.Font("Product Sans", 16F);
             this.subjectTextBox.Location = new System.Drawing.Point(169, 153);
             this.subjectTextBox.Name = "subjectTextBox";
-            this.subjectTextBox.Size = new System.Drawing.Size(179, 27);
+            this.subjectTextBox.Size = new System.Drawing.Size(179, 33);
             this.subjectTextBox.TabIndex = 11;
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.nameTextBox.Font = new System.Drawing.Font("Product Sans", 16F);
             this.nameTextBox.Location = new System.Drawing.Point(169, 77);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(179, 27);
+            this.nameTextBox.Size = new System.Drawing.Size(179, 33);
             this.nameTextBox.TabIndex = 9;
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label3.Font = new System.Drawing.Font("Product Sans", 16F);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(36, 154);
             this.label3.Name = "label3";
@@ -101,7 +102,7 @@ namespace TPReminder.Forms
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.Font = new System.Drawing.Font("Product Sans", 16F);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(36, 225);
             this.label2.Name = "label2";
@@ -112,7 +113,7 @@ namespace TPReminder.Forms
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.Font = new System.Drawing.Font("Product Sans", 16F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(36, 29);
             this.label1.Name = "label1";
@@ -123,7 +124,7 @@ namespace TPReminder.Forms
             // lblHowToUse
             // 
             this.lblHowToUse.BackColor = System.Drawing.Color.Transparent;
-            this.lblHowToUse.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblHowToUse.Font = new System.Drawing.Font("Product Sans", 16F);
             this.lblHowToUse.ForeColor = System.Drawing.Color.White;
             this.lblHowToUse.Location = new System.Drawing.Point(36, 78);
             this.lblHowToUse.Name = "lblHowToUse";
@@ -131,13 +132,13 @@ namespace TPReminder.Forms
             this.lblHowToUse.TabIndex = 5;
             this.lblHowToUse.Text = "Nombre: ";
             // 
-            // iconButtonBrowse
+            // saveButton
             // 
-            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (253)))), ((int) (((byte) (138)))), ((int) (((byte) (114)))));
+            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(138)))), ((int)(((byte)(114)))));
             this.saveButton.FlatAppearance.BorderSize = 0;
             this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveButton.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.saveButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.saveButton.Font = new System.Drawing.Font("Product Sans", 16F);
             this.saveButton.ForeColor = System.Drawing.Color.Black;
             this.saveButton.IconChar = FontAwesome.Sharp.IconChar.None;
             this.saveButton.IconColor = System.Drawing.Color.Black;
@@ -158,6 +159,7 @@ namespace TPReminder.Forms
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panelHome);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "FormAddNewTask";
             this.panelHome.ResumeLayout(false);

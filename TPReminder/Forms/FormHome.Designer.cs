@@ -31,6 +31,7 @@ namespace TPReminder.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             this.panelHome = new System.Windows.Forms.Panel();
             this.lblNextTp = new System.Windows.Forms.Label();
             this.lblTpToDo = new System.Windows.Forms.Label();
@@ -40,7 +41,7 @@ namespace TPReminder.Forms
             // 
             // panelHome
             // 
-            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (34)))), ((int) (((byte) (33)))), ((int) (((byte) (74)))));
+            this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.panelHome.Controls.Add(this.lblNextTp);
             this.panelHome.Controls.Add(this.lblTpToDo);
             this.panelHome.Controls.Add(this.lblWelcome);
@@ -53,7 +54,7 @@ namespace TPReminder.Forms
             // 
             // lblNextTp
             // 
-            this.lblNextTp.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblNextTp.Font = new System.Drawing.Font("Product Sans", 16F);
             this.lblNextTp.ForeColor = System.Drawing.Color.White;
             this.lblNextTp.Location = new System.Drawing.Point(38, 193);
             this.lblNextTp.Name = "lblNextTp";
@@ -63,7 +64,7 @@ namespace TPReminder.Forms
             // 
             // lblTpToDo
             // 
-            this.lblTpToDo.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblTpToDo.Font = new System.Drawing.Font("Product Sans", 16F);
             this.lblTpToDo.ForeColor = System.Drawing.Color.White;
             this.lblTpToDo.Location = new System.Drawing.Point(38, 105);
             this.lblTpToDo.Name = "lblTpToDo";
@@ -73,7 +74,7 @@ namespace TPReminder.Forms
             // 
             // lblWelcome
             // 
-            this.lblWelcome.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblWelcome.Font = new System.Drawing.Font("Product Sans", 16F);
             this.lblWelcome.ForeColor = System.Drawing.Color.White;
             this.lblWelcome.Location = new System.Drawing.Point(38, 19);
             this.lblWelcome.Name = "lblWelcome";
@@ -87,6 +88,7 @@ namespace TPReminder.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 393);
             this.Controls.Add(this.panelHome);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormHome";
             this.Text = "FormHome";
             this.panelHome.ResumeLayout(false);

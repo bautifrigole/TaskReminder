@@ -135,5 +135,6 @@ namespace TPReminder.Forms
             ProgramController.FormSettings = new FormSettings();
             OpenChildForm(ProgramController.FormSettings);
         }
+
     }
 }

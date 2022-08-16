@@ -22,15 +22,14 @@ namespace TPReminder.Scripts.Domain
                 Location = new System.Drawing.Point(50, 68),
                 Dock = DockStyle.Top,
                 Name = "taskPanel"+id,
-                Size = new System.Drawing.Size(500, 80),
+                Size = new System.Drawing.Size(500, 90),
                 TabIndex = 6,
                 Parent = parent
             };
             
             var label = new Label
             {
-                Font = new System.Drawing.Font("Century Gothic", 14F, 
-                    System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0))),
+                Font = new System.Drawing.Font("Product Sans", 16F),
                 ForeColor = System.Drawing.Color.Transparent,
                 Location = new System.Drawing.Point(38, 75),
                 Dock = DockStyle.Top,
@@ -47,9 +46,9 @@ namespace TPReminder.Scripts.Domain
                 FlatStyle = FlatStyle.Flat,
                 Flip = FlipOrientation.Normal,
                 ForeColor = System.Drawing.Color.Transparent,
-                IconChar = IconChar.Trash,
+                IconChar = IconChar.TrashAlt,
                 FlatAppearance = { BorderSize = 0},
-                IconColor = System.Drawing.Color.Gray,
+                IconColor = System.Drawing.Color.LightGray,
                 IconSize = 20,
                 ImageAlign = System.Drawing.ContentAlignment.MiddleCenter,
                 Location = new System.Drawing.Point(300, 0),
