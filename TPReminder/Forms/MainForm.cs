@@ -2,9 +2,9 @@
 using System.Drawing;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
-using TPReminder.Scripts.Controllers;
+using TaskReminder.Scripts.Controllers;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     public partial class MainForm : Form
     {

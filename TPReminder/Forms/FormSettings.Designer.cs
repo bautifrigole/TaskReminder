@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     partial class FormSettings
     {
@@ -33,6 +33,8 @@ namespace TPReminder.Forms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSettings));
             this.panelHome = new System.Windows.Forms.Panel();
+            this.notificationsCheckBox = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.startupCheckBox = new System.Windows.Forms.CheckBox();
             this.lblHowToUse = new System.Windows.Forms.Label();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
@@ -42,6 +44,8 @@ namespace TPReminder.Forms
             // panelHome
             // 
             this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.panelHome.Controls.Add(this.notificationsCheckBox);
+            this.panelHome.Controls.Add(this.label1);
             this.panelHome.Controls.Add(this.startupCheckBox);
             this.panelHome.Controls.Add(this.lblHowToUse);
             this.panelHome.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -50,6 +54,30 @@ namespace TPReminder.Forms
             this.panelHome.Name = "panelHome";
             this.panelHome.Size = new System.Drawing.Size(682, 380);
             this.panelHome.TabIndex = 1;
+            // 
+            // notificationsCheckBox
+            // 
+            this.notificationsCheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.notificationsCheckBox.Checked = true;
+            this.notificationsCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.notificationsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notificationsCheckBox.Location = new System.Drawing.Point(257, 103);
+            this.notificationsCheckBox.Name = "notificationsCheckBox";
+            this.notificationsCheckBox.Size = new System.Drawing.Size(30, 30);
+            this.notificationsCheckBox.TabIndex = 6;
+            this.notificationsCheckBox.UseVisualStyleBackColor = true;
+            this.notificationsCheckBox.CheckedChanged += new System.EventHandler(this.notificationsCheckBox_CheckedChanged);
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Product Sans", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(21, 105);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(240, 43);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Receive notifications";
             // 
             // startupCheckBox
             // 
@@ -92,6 +120,9 @@ namespace TPReminder.Forms
             this.panelHome.ResumeLayout(false);
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.CheckBox notificationsCheckBox;
+        private System.Windows.Forms.Label label1;
 
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
         private System.Windows.Forms.Label lblHowToUse;

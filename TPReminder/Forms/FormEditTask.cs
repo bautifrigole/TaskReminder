@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using TPReminder.Scripts.Controllers;
-using TPReminder.Scripts.Domain;
+using TaskReminder.Scripts.Controllers;
+using TaskReminder.Scripts.Domain;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     public partial class FormEditTask : Form
     {
@@ -31,7 +31,7 @@ namespace TPReminder.Forms
             _task.Title = nameTextBox.Text;
             _task.Subject = subjectTextBox.Text;
             _task.Date = dateTimePicker1.Value;
-            ProgramController.SaveTasks();
+            ProgramController.SaveData();
             ProgramController.UpdateFormsInfo();
             Close();
         }

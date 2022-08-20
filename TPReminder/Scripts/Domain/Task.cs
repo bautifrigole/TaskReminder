@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TPReminder.Scripts.Domain
+namespace TaskReminder.Scripts.Domain
 {
     public class Task
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using TPReminder.Scripts.Controllers;
+using TaskReminder.Scripts.Controllers;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     public partial class FormAddNewTask : Form
     {

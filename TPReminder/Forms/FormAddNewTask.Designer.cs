@@ -1,7 +1,6 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     partial class FormAddNewTask
     {

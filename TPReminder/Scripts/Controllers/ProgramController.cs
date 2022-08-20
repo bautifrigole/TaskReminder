@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using Microsoft.Toolkit.Uwp.Notifications;
 using Microsoft.Win32;
-using TPReminder.Forms;
-using TPReminder.Scripts.Domain;
+using TaskReminder.Forms;
+using TaskReminder.Scripts.Domain;
+using TaskReminder.Scripts.Systems;
 
-namespace TPReminder.Scripts.Controllers
+namespace TaskReminder.Scripts.Controllers
 {
     internal static class ProgramController
     {
         private static readonly TaskController TaskController = new TaskController();
+        public static readonly SaveSystem SaveSystem = new SaveSystem();
+        
         private static bool _hasStartWithWindows = true;
+        private static bool _sendNotifications = true;
 
         public static int TasksToDoAmount;
         public static int DaysToSubmitNextTask;
@@ -26,9 +31,6 @@ namespace TPReminder.Scripts.Controllers
         [STAThread]
         private static void Main()
         {
-            // Ask to set in the start up
-            SetAppInStartup();
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -58,8 +60,9 @@ namespace TPReminder.Scripts.Controllers
             TaskController.DeleteTask(task);
         }
         
-        public static void SaveTasks()
+        public static void SaveData()
         {
+            SaveSystem.Save();
             TaskController.SaveTasks();
         }
 
@@ -92,6 +95,22 @@ namespace TPReminder.Scripts.Controllers
         public static void SetHasStartWithWindows(bool value)
         {
             _hasStartWithWindows = value;
+            SetAppInStartup();
+        }
+        
+        public static void SetSendNotifications(bool value)
+        {
+            _sendNotifications = value;
+        }
+
+        public static void SendNotification(string title, string body)
+        {
+            _sendNotifications = SaveSystem.GetSettingsData()[1].Value;
+            if (!_sendNotifications) return;
+            new ToastContentBuilder()
+                .AddText(title)
+                .AddText(body)
+                .Show();
         }
 
         private static void SetAppInStartup()
@@ -100,12 +119,12 @@ namespace TPReminder.Scripts.Controllers
                 ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
             if (_hasStartWithWindows)
             {
-                registryKey?.SetValue("TPReminder", Application.ExecutablePath);
+                registryKey?.SetValue("TaskReminder", Application.ExecutablePath);
             }
             else
             {
-                if(registryKey?.GetValue("TPReminder") != null)
-                    registryKey?.DeleteValue("TPReminder");
+                if(registryKey?.GetValue("TaskReminder") != null)
+                    registryKey?.DeleteValue("TaskReminder");
             }
         }
     }

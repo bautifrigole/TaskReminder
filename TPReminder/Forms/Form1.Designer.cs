@@ -1,7 +1,4 @@
-﻿using System;
-using FontAwesome.Sharp;
-
-namespace TPReminder.Forms
+﻿namespace TaskReminder.Forms
 {
   partial class MainForm
     {

@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel;
-using FontAwesome.Sharp;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     partial class FormAllTps
     {

@@ -1,4 +1,4 @@
-﻿namespace TPReminder.Scripts.Controllers
+﻿namespace TaskReminder.Scripts.Controllers
 {
     public class CalendarController
     {

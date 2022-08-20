@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
-using TPReminder.Forms;
-using TPReminder.Scripts.Controllers;
+using TaskReminder.Forms;
+using TaskReminder.Scripts.Controllers;
 
-namespace TPReminder.Scripts.Domain
+namespace TaskReminder.Scripts.Domain
 {
     public class TaskBlock
     {

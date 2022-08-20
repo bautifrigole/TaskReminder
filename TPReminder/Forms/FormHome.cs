@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using TPReminder.Scripts.Controllers;
+using Microsoft.Toolkit.Uwp.Notifications;
+using TaskReminder.Scripts.Controllers;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     public partial class FormHome : Form
     {
@@ -69,7 +70,7 @@ namespace TPReminder.Forms
                 if (i == 0)
                     nextTaskToSubmitName += nextTasks[i].Title;
                 else if (i >= nextTasks.Count-1)
-                    nextTaskToSubmitName += " y "+nextTasks[i].Title;
+                    nextTaskToSubmitName += " and "+nextTasks[i].Title;
                 else
                     nextTaskToSubmitName += ", "+nextTasks[i].Title;
             }
@@ -87,6 +88,7 @@ namespace TPReminder.Forms
             else if (daysToSubmitNextTask == 0)
             {
                 lblNextTp.Text = "Today you must hand in "+keyTask+": \n" + nextTaskToSubmitName;
+                ProgramController.SendNotification("Tasks to hand in today", nextTaskToSubmitName);
             }
             else if (daysToSubmitNextTask < 0)
             {

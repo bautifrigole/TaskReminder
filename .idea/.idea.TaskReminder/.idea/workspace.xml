@@ -25,14 +25,91 @@
     <list default="true" id="44d8fd0d-ccdb-408c-ad07-165e7275305c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskReminder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskReminder/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/TPReminder/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/TPReminder/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Properties/Resources.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/Properties/Settings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Properties/Settings.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/TPReminder.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskReminder.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TaskReminder.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/TaskReminder/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/TaskReminder/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAddNewTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormAllTps.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormEditTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/FormSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Forms/MainForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/CalendarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/CalendarController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/Scripts/Domain/TaskBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/Scripts/Domain/TaskBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/TaskReminder.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/TaskReminder.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TaskReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TaskReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TaskReminder.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TaskReminder.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TaskReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TaskReminder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Debug/TasksToDo" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Debug/TasksToDo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Release/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Release/TaskReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Release/TaskReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Release/TaskReminder.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Release/TaskReminder.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Release/TaskReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Release/TaskReminder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/bin/Release/TasksToDo" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/bin/Release/TasksToDo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.FormAddNewTask.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.FormAllTps.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.FormEditTask.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.FormHome.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.FormSettings.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TPReminder.Forms.MainForm.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Debug/TaskReminder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.Forms.FormAddNewTask.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.Forms.FormAllTps.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.Forms.FormEditTask.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.Forms.FormHome.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.Forms.FormSettings.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TPReminder.Forms.MainForm.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TPReminder/obj/Release/TaskReminder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPReminder/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/FontAwesome.Sharp.5.14.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net40/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net45/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net472/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/net48/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/FontAwesome.Sharp.5.14.1/lib/netcoreapp3.1/FontAwesome.Sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/Newtonsoft.Json.13.0.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.3/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/netstandard2.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.13.0.1/packageIcon.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +134,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edef46c9b2db4b878c98495bfdc516fa568ba8/07/55758114/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/60b4b029527b4c25b20634af2ac29f982e4a8/55/41e4ca80/System.Drawing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,7 +157,6 @@
     <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/TaskController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Domain/Task.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TPReminder/Scripts/Domain/TaskBlock.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TPReminder/bin/Debug/TPReminder.exe.config" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,8 +208,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.29052633&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.36898395&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -222,6 +299,9 @@
       <workItem from="1660669324433" duration="211000" />
       <workItem from="1660689456393" duration="2555000" />
       <workItem from="1660692921395" duration="631000" />
+      <workItem from="1660965845546" duration="4905000" />
+      <workItem from="1660972723328" duration="1792000" />
+      <workItem from="1660974579942" duration="643000" />
     </task>
     <servers />
   </component>
@@ -252,32 +332,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs</url>
-          <line>42</line>
-          <properties documentPath="C:\Users\bauti\RiderProjects\TPReminder\TPReminder\Scripts\Controllers\ProgramController.cs" initialLine="42" containingFunctionPresentation="method 'UpdateFormsInfo'">
-            <startOffsets>
-              <option value="1249" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1278" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TPReminder/Scripts/Controllers/ProgramController.cs</url>
-          <line>41</line>
-          <properties documentPath="C:\Users\bauti\RiderProjects\TPReminder\TPReminder\Scripts\Controllers\ProgramController.cs" initialLine="41" containingFunctionPresentation="method 'UpdateFormsInfo'">
-            <startOffsets>
-              <option value="1214" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1236" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

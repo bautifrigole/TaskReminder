@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using Newtonsoft.Json;
-using TPReminder.Scripts.Domain;
+using TaskReminder.Scripts.Domain;
 
-namespace TPReminder.Scripts.Controllers
+namespace TaskReminder.Scripts.Controllers
 {
     public class TaskController
     {
@@ -28,7 +28,7 @@ namespace TPReminder.Scripts.Controllers
         
         public void DeleteTask(Task task)
         {
-            var result = MessageBox.Show("¿Quieres eliminar la tarea: " + task.GetTitle() + "?", "Advertencia", MessageBoxButtons.YesNo);
+            var result = MessageBox.Show("Do you want to delete the task: " + task.GetTitle() + "?", "Warning", MessageBoxButtons.YesNo);
 
             if (result != DialogResult.Yes) return;
             _tasks.Remove(task);
@@ -39,7 +39,7 @@ namespace TPReminder.Scripts.Controllers
         private void AddTask(Task task)
         {
             _tasksJson.Add(JsonConvert.SerializeObject(task, Formatting.Indented));
-            MessageBox.Show("¡Creada con éxito!" + "\n" + task.GetTaskInfo(), "Aviso");
+            MessageBox.Show("Created successfully!" + "\n" + task.GetTaskInfo(), "Advice");
             SaveTasks();
         }
         

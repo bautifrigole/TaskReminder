@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
-using System.IO;
-using TPReminder.Scripts.Controllers;
-using TPReminder.Scripts.Domain;
+using TaskReminder.Scripts.Controllers;
+using TaskReminder.Scripts.Domain;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     public partial class FormAllTps : Form
     {

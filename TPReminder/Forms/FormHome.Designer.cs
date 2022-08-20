@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace TPReminder.Forms
+namespace TaskReminder.Forms
 {
     partial class FormHome
     {
