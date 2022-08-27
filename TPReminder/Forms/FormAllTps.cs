@@ -43,7 +43,7 @@ namespace TaskReminder.Forms
             foreach (var task in ProgramController.GetTasks())
             {
                 count++;
-                var taskBlock = new TaskBlock(task, lblTpsToDo, count);
+                var taskBlock = new TaskBlock(task, flowLayoutPanel1, count);
                 _taskBlocks.Add(taskBlock);
             }
         }

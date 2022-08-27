@@ -33,7 +33,7 @@ namespace TaskReminder.Forms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAllTps));
             this.panelHome = new System.Windows.Forms.Panel();
-            this.lblTpsToDo = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.lblTpsToDoTitle = new System.Windows.Forms.Label();
             this.panelHome.SuspendLayout();
             this.SuspendLayout();
@@ -41,7 +41,7 @@ namespace TaskReminder.Forms
             // panelHome
             // 
             this.panelHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.panelHome.Controls.Add(this.lblTpsToDo);
+            this.panelHome.Controls.Add(this.flowLayoutPanel1);
             this.panelHome.Controls.Add(this.lblTpsToDoTitle);
             this.panelHome.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelHome.ForeColor = System.Drawing.Color.Black;
@@ -50,14 +50,15 @@ namespace TaskReminder.Forms
             this.panelHome.Size = new System.Drawing.Size(694, 397);
             this.panelHome.TabIndex = 2;
             // 
-            // lblTpsToDo
+            // flowLayoutPanel1
             // 
-            this.lblTpsToDo.Font = new System.Drawing.Font("Product Sans", 16F);
-            this.lblTpsToDo.ForeColor = System.Drawing.Color.White;
-            this.lblTpsToDo.Location = new System.Drawing.Point(49, 66);
-            this.lblTpsToDo.Name = "lblTpsToDo";
-            this.lblTpsToDo.Size = new System.Drawing.Size(632, 322);
-            this.lblTpsToDo.TabIndex = 4;
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.ForeColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(66, 66);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(615, 310);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // lblTpsToDoTitle
             // 
@@ -82,7 +83,8 @@ namespace TaskReminder.Forms
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.Label lblTpsToDo;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+
         private System.Windows.Forms.Label lblTpsToDoTitle;
         private System.Windows.Forms.Panel panelHome;
 

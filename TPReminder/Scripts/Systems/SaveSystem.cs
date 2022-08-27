@@ -37,10 +37,8 @@ namespace TaskReminder.Scripts.Systems
         public void AddSettingValue(string name, dynamic value)
         {
             var setting = _settings.FirstOrDefault(s => s.Name == name);
-            if (setting != null)
-                _settings.Remove(setting);
-            
-            _settings.Add(new Setting(name, value));
+            if (setting != null) setting.Value = value;
+            else _settings.Add(new Setting(name, value));
             Save();
         }
 
